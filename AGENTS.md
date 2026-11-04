@@ -4,6 +4,8 @@
 - Änderungen prüfen, committen, pushen und einen Pull Request gegen `main` erstellen.
 - Vor Konfliktauflösungen und vor jedem Merge den Vorschlag bzw. Pull Request im Chat zur Durchsicht zeigen und die ausdrückliche Freigabe des Nutzers abwarten. Kein Auto-Merge aktivieren.
 - Nach Freigabe selbstständig mergen und den lokalen Stand mit `main` synchronisieren.
+- Nach jedem Merge den gemergten Feature-/Fix-Branch auf GitHub und lokal löschen; vorher den erfolgreichen Merge prüfen.
+- Bei beauftragten Arbeiten lokale und GitHub-Branches synchron halten: Remote-Referenzen mit `git fetch --prune origin` aktualisieren, eigene Änderungen pushen und lokale Branches nur per Fast-forward aktualisieren. Ungemergte Arbeit niemals durch Löschen, Reset oder Force-Push verwerfen; bei Divergenzen vor einer Konfliktauflösung die Freigabe einholen.
 - Quellcode und Dokumentation bei beauftragten Änderungen gemeinsam aktuell halten. Es ist keine unbeaufsichtigte Wartungsautomation eingerichtet.
 - Repository: https://github.com/moritzkreinsen/pflichtfach-informatik
 - Der Projektzugang liegt im macOS-Schlüsselbund unter `github.com codex/pflichtfach-informatik`. Tokens niemals ausgeben, in Dateien schreiben oder in Git-URLs speichern.
