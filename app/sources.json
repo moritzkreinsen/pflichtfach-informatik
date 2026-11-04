@@ -1,0 +1,31 @@
+{
+  "queries": [
+    "\"Pflichtfach Informatik\"",
+    "\"Pflichtfach Informatik\" site:km.baden-wuerttemberg.de",
+    "\"Pflichtfach Informatik\" site:mk.niedersachsen.de",
+    "\"Pflichtfach Informatik\" site:schulministerium.nrw",
+    "\"Pflichtfach Informatik\" site:bildung.bremen.de",
+    "\"Pflichtfach Informatik\" site:bildung.rlp.de",
+    "\"Pflichtfach Informatik\" site:saarland.de",
+    "\"Pflichtfach Informatik\" site:kmk.org",
+    "\"Pflichtfach Informatik\" site:stifterverband.org",
+    "\"Pflichtfach Informatik\" site:bitkom.org"
+  ],
+  "feeds": [
+    {
+      "name": "bildungsklick – Schule",
+      "url": "https://bildungsklick.de/rss/schule/"
+    },
+    {
+      "name": "News4teachers",
+      "url": "https://www.news4teachers.de/feed/"
+    },
+    {
+      "name": "heise online",
+      "url": "https://www.heise.de/rss/heise-atom.xml"
+    }
+  ],
+  "wordpress": [
+    "https://www.news4teachers.de/wp-json/wp/v2/posts?search=Pflichtfach%20Informatik&per_page=100"
+  ]
+}
