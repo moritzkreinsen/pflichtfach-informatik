@@ -1,0 +1,3 @@
+Options -Indexes
+RewriteEngine On
+RewriteRule ^feeds/([A-Z-]+|all)\.rss$ feed.php?regions=$1 [L,QSA]
