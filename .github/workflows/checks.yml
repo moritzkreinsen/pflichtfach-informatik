@@ -1,0 +1,26 @@
+name: Prüfungen
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: PHP-Erweiterungen installieren
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y php-cli php-sqlite3 php-xml php-mbstring php-curl
+      - name: PHP-Syntax und Funktionstests
+        run: |
+          find app bin public tests -name '*.php' -print0 | xargs -0 -n1 php -l
+          php tests/run.php
+      - name: Python-Tests
+        run: python -m unittest discover -s tests -p 'test_*.py'

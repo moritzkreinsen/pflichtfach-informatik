@@ -1,0 +1,14 @@
+/config.php
+/var/*
+!/var/.gitkeep
+/.venv/
+/dist/
+/data/cache/
+__pycache__/
+/.models/
+/public/feeds/
+
+.DS_Store
+*.log
+.env
+.env.*
