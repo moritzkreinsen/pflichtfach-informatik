@@ -1,0 +1,1842 @@
+[
+  {
+    "id": "457f3f6c315f6cab0659dc0d738b0ae17088547e18cf98d496ad2848ed6b95b5",
+    "title": "Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "90aa842e54f801f11c998d30ed0e8f73b3e3ebd46ac2ce18d54aae12007d1707",
+    "complete_article": false
+  },
+  {
+    "id": "6ab0ddfe675989eb39d20df96725e7b0e64f7951d3192a36e6ccc782f55d6ff5",
+    "title": "Fortbildung und Beratung . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Fortbildungsangebot des Landes Rheinland-Pfalz; gemeinsame Veranstaltungen mit Hessen bzw. dem Saarland sind einzelne Angebote innerhalb dieses Landesprogramms.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "b3a98befc26b4f883dbd236b4f7dd37e91ee68b4be570e64497ffa2bdce078d1",
+    "complete_article": false
+  },
+  {
+    "id": "acc22a551470c2cb2c93c2ef3051b95ef5decdd08683aeccc490909b502ec6f1",
+    "title": "Fortbildung für Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Fortbildungsangebot des Landes Rheinland-Pfalz; gemeinsame Veranstaltungen mit Hessen bzw. dem Saarland sind einzelne Angebote innerhalb dieses Landesprogramms.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/fortbildung",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "5b963067405618172579141cfb1c4bb5602ff59ab86abe40c58fe11d483ed8cd",
+    "complete_article": false
+  },
+  {
+    "id": "dfecaeb6930fdb0dcdbe62a4f2561a6db8fad1aafbd09f415e37e42c9fd84933",
+    "title": "iMedia - Forum Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/imedia",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "d70785e267884122cb6d8273106590284964aff722a36da68923e6a30973e7f6",
+    "complete_article": false
+  },
+  {
+    "id": "2c28b22767fdb85abba89fa539e90313523036f94c48352e9c4f9304a6f01625",
+    "title": "Themencafé inf-schule . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/themencafe",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "da5772e26996c1390538201b552bddac44836574c0e53ef0cdce91f1866508a9",
+    "complete_article": false
+  },
+  {
+    "id": "2b5a50c34104829d1b731e225e5d2e6ff99e93c8a0c9a8b505f6e80240b10186",
+    "title": "Weiterbildung . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/weiterbildung",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "3a1d8c54fa3367c7b393ac5c2c878ee668f879be2ec5aaf85ca7b29fec936fc9",
+    "complete_article": false
+  },
+  {
+    "id": "2bbf2ab0fcc6aeb95c119abf4e76039d7f0d06c5b9a93abd33f87021d476e9fc",
+    "title": "Aktuelle Kurse . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/weiterbildung/aktuelle-kurse",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "771e291507e745f4aa515898c7429f727b1ab34120af7b3a13272513bc817194",
+    "complete_article": false
+  },
+  {
+    "id": "5436f76fb8536af484a9927cecb4b757210566e24efea70629a1774486d61bf0",
+    "title": "Wie kann ich mich für eine Weiterbildung in Informatik bewerben?",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/weiterbildung/bewerbung",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "5d7aa09f34739bc490125845154db71ab25e61528a8ad90b512f289208659ad9",
+    "complete_article": false
+  },
+  {
+    "id": "b10433c91dd4f9bec676b5a2d3a933c2da0c584c66a2698fd704fc1c197b706e",
+    "title": "Inhaltliche Konzeption der Weiterbildung Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/weiterbildung/inhalte",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "5a5b3357fbdf6129678320c513016555e77431cbc8255a17d529169ea39c9601",
+    "complete_article": false
+  },
+  {
+    "id": "fe79fd0034e860d1c403faef9d22d569b467918ecb6594d540fe886bd6432c6f",
+    "title": "Prüfungen und Bewährung . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/weiterbildung/pruefungen-und-rechtliches",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "dba5c51bcfdda043bd9967eff4743f745bbe199da86ed03ccbe8cc599de70387",
+    "complete_article": false
+  },
+  {
+    "id": "df38f67458d3daa2fd5765ccf40a4fb52af040d3bd4a0d418a73f6ee5cf85f44",
+    "title": "Unterrichtserlaubnis . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/weiterbildung/unterrichtserlaubnis",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "57130086c00aa41944fcd040dcf5971d4dc7ef5655e06ab1b9e628dc01990da5",
+    "complete_article": false
+  },
+  {
+    "id": "48c5431f800174a61e5d841f544e0c16e9572a635c4564161e449fe1f14b517e",
+    "title": "Verlaufsplan . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/weiterbildung/verlaufsplan",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "1fdf8155d99fb1dc7fcc94c5e36be658a9e16446aca9fd8311c3efce16739416",
+    "complete_article": false
+  },
+  {
+    "id": "29a7d4307a5afc4ef403d6947e601cbddc77753bc8b3b088a42f6410cdf27b6c",
+    "title": "Kontakt . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/kontakt",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "b5fa0fa9aa361b8411e1e6a92b9bd0eae2e272f4ac385c7aed12f03835d7bf27",
+    "complete_article": false
+  },
+  {
+    "id": "8e8a878d82d58a21f35d2da87dbcb8e0cd6b280db33a7c0e373e0d4688af61a3",
+    "title": "Materialien rund um das Fach Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Material- und Angebotsübersicht für die rheinland-pfälzische Schulpraxis. Überregionale Wettbewerbe und auswärtige Anbieter sind Verweise, keine gleichwertigen Länderberichte.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/materialien",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "25065e543e64b4988381aa1f5a238fed1ff273dd3ead700a5290d10ca8867cf2",
+    "complete_article": false
+  },
+  {
+    "id": "1961c9f04379ecc8363d2f5ebbc704b81cae418d174888da1b8582df12dae167",
+    "title": "Online-Schulbuch zur Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/materialien/inf-schule",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "45c07e73c9fef2d7dbf4faeb5274d4e283485dc4cfa027f81f2984b6d1df52b2",
+    "complete_article": false
+  },
+  {
+    "id": "bbc16a04270b77f9fc9fbb9e424bbfac495f1abf02a088ec3c2ff6eb163fddc7",
+    "title": "Projekte und Themen . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "b97cc3d6a89c76aac7ff82a3285f69a8e528cf6e70a3f8c7478082bf64e4fc87",
+    "complete_article": false
+  },
+  {
+    "id": "e4a0ee9e08bbdc4d680fb87ca4adb5965ff2ac451a014b01a10b054e758bff9e",
+    "title": "Abitur in Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/abitur-in-informatik",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "f4d946714843dfa3332231e30d63979af1fcfba83751777d9b77d089579aa37b",
+    "complete_article": false
+  },
+  {
+    "id": "bedb34f7aac3eddb06a1db3ec7102eec8f301f8dccb5e37b0f6f6463f396a3ee",
+    "title": "Informatik-Wettbewerbe",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Material- und Angebotsübersicht für die rheinland-pfälzische Schulpraxis. Überregionale Wettbewerbe und auswärtige Anbieter sind Verweise, keine gleichwertigen Länderberichte.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/informatik-wettbewerbe",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "b58f91261551e069e2bbef39b07feaa510b7e3b9eadd274eaff13630fce82e3f",
+    "complete_article": false
+  },
+  {
+    "id": "81bcbf616db4a706a6cf7157d2117be46265e5947824ec82d0219b58a9c3fc7f",
+    "title": "Angebote für Schülerinnen und Schüler . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Material- und Angebotsübersicht für die rheinland-pfälzische Schulpraxis. Überregionale Wettbewerbe und auswärtige Anbieter sind Verweise, keine gleichwertigen Länderberichte.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/informatik-wettbewerbe/angebote-fuer-schueler",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "ea0d38ac92a669f2c97603e2df1cbeb34e5a82eed789fa8fc44204381d92a021",
+    "complete_article": false
+  },
+  {
+    "id": "7bd43332b45a4ffc7a0ac95d2b69879a43404b3ee1bc5b94f52609e4fcf1b761",
+    "title": "Informatik-Profil-Schulen",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/ips",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "8fcebebe88416cb7a34f9ef8e199287c192530794e514b98df293a521e590594",
+    "complete_article": false
+  },
+  {
+    "id": "8b2fc531d514156cd2e9d3d77dbe2eb1e3a14ed436a8a93032c5b32e01092066",
+    "title": "Lehrpläne für IPS . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/ips/lehrplaene-fuer-ips",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "880f6f0ab950fac5cdcb63a9e6894007f1287ab1ea84cdd45488119738778804",
+    "complete_article": false
+  },
+  {
+    "id": "998fd46f8b8f9e38d045edd669fb49e3c7880f9655eb445038025579fe2ae204",
+    "title": "21 Informatik-Profil-Schulen",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/ips/profilschulen",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "50754beb4ae53d2d1c0a3ea5551371e6cacfc89958759059ead406141866539b",
+    "complete_article": false
+  },
+  {
+    "id": "9dc20b50b7d4b27a8691113eaac54cb4bbf5c784a870486204fabd3785973d54",
+    "title": "Unterrichtsorganisation . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/ips/unterrichtsorganisation",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "2d47abad9a8dc8508b801ed813e52fd37792b481d93d387850217c664e815906",
+    "complete_article": false
+  },
+  {
+    "id": "d105193e8e2c51433c39e798ef553ea3976652d85734646b2c17cd42420ec2f1",
+    "title": "Künstliche Intelligenz . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Material- und Angebotsübersicht für die rheinland-pfälzische Schulpraxis. Überregionale Wettbewerbe und auswärtige Anbieter sind Verweise, keine gleichwertigen Länderberichte.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/ki",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "4be42728c5f07fa6eb19fc920231fff3a66d8647fb2866e5b329697b92af898a",
+    "complete_article": false
+  },
+  {
+    "id": "31a202e8a5e232ac29a152e4b2fd3ae6f48401d98dcab12552216e1d7ed74881",
+    "title": "Lehrpläne . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/lehrplaene",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "f31448bac8aa261dd81a938ae5c977e436abb8159f459b2a5ff9e7391ced4142",
+    "complete_article": false
+  },
+  {
+    "id": "895c47cc7c1c8f3e016a2f7a8c36f25b8ab5de4a921e6010299ff48dacc7fd84",
+    "title": "Informatik-Unterricht an RS+, IGS und Gymnasium",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/unterricht",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "8fc7ce0c9915b8af6df4b7abad3dd4072268677dbe0b89c7335bfe399c609bbb",
+    "complete_article": false
+  },
+  {
+    "id": "4712cb0ce75f629a82dd9bc762896bde5ad7a733068a6d60ae79ef099da1aee7",
+    "title": "Besondere Lernleistung im Fach Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/unterricht/besondere-lernleistung-im-fach-informatik",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "452b810b76baa86264ad9557b078effdeb50c74586f14b4d98e4f50978241ea7",
+    "complete_article": false
+  },
+  {
+    "id": "3458c22c400158f29b55f774618a23e216af9fcfe339a6f0b82b2552d62c419f",
+    "title": "Informatikunterricht in der digitalen Welt . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/unterricht/bildung-in-der-digitalen-welt",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "4ce28c00e57e338abc14ac6bf102dab71e99329ae715161e3d5bf2298006f264",
+    "complete_article": false
+  },
+  {
+    "id": "01e256a35cadbc3f3fd069c4ed360fdf9bf0cdd990d0d2cdd85d174c45d195f7",
+    "title": "Pflichtfach Informatik . Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/unterricht/pflichtfach",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "34d21e6bb19d86673fcb1a10e0c9063885b241f9124745f1aa91083121d72fea",
+    "complete_article": false
+  },
+  {
+    "id": "fcf67415764c1d22fe7ced68999a680a0d600e7c074419b968b7e1babf242d7f",
+    "title": "Schulen mit Leistungsfach Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/unterricht/schulen-mit-leistungsfach-informatik",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "3f80552181852aad0e9394b68ebf62e8d15e08025623331ff728b297ef14fe4f",
+    "complete_article": false
+  },
+  {
+    "id": "1b7becfdb1c85912401d3e2f177c5b6c1702baf1a110d87515fc46b4364d90c9",
+    "title": "Wahlfach und Wahlpflichtfach Informatik",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/informatik/projekte-und-themen/unterricht/wahlfach",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "e48d611db909a4fa4429bd66c170b4c5b677eb113c1737648866780d886aacd0",
+    "complete_article": false
+  },
+  {
+    "id": "b44b3374f31365b367fde508ecadc9d2489052fb3479a73d95745ace13485138",
+    "title": "Technologie begeistert: 41 neue Schulen starten ins rheinland-pfälzische RoboLab-Projekt . Newsletter PL",
+    "regions": [
+      "RP"
+    ],
+    "reason": "RoboLab wird an 41 rheinland-pfälzischen Schulen eingeführt und durch das Pädagogische Landesinstitut begleitet.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/newsletter/pl-newsletter/nachrichtendetailseite/technologie-begeistert-41-neue-schulen-starten-ins-rheinland-pfaelzische-robolab-projekt-1",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "94b67631a9755326a205df06c4d6fb8dd41ea05966be3be69ddf2b1ca4374b63",
+    "complete_article": false
+  },
+  {
+    "id": "b49093ec87aa5a0f0acfc23bdf94f7121b100e876a08ad8f80507b7f401da13b",
+    "title": "Gemeinsame Rundschreiben",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/rfb/faecher/informatik/rundschreiben",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "b4f647846dfb9a457842bffbe64ac1fa5189bca9f7a5027c77c4f24c740c3739",
+    "complete_article": false
+  },
+  {
+    "id": "ed58656f3101175d8e938047ae74a88392cd6b562dd8b052a12bd22f75798549",
+    "title": "Materialien und Informationen",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/rfb/faecher/physik/materialien",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "012a2f3deffa91835ee12eefd68c0e8d5b9bcd042240bfa8fdd5f06c318c5929",
+    "complete_article": false
+  },
+  {
+    "id": "5b6e8036b9c357e63b18c492ef219234fb86446b7f184bb9e9f054a70aeeb480",
+    "title": "Willkommen bei Schule.Medien.Recht.",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Fachinformation richtet sich an Schulen und Lehrkräfte in Rheinland-Pfalz. Verlinkte externe Angebote begründen keinen zusätzlichen Länderschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildung.rlp.de/schulemedienrecht/",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "b55e7a1a34e645afb1e4a3ec0e568eeac08a4bf3562dc770c355b5430418bbb6",
+    "complete_article": false
+  },
+  {
+    "id": "bc1deb6f110b60fbd1b337e455ce974c2df483d528babeecb9ea1b28d01697af",
+    "title": "Informatikunterricht: Großer Nachholbedarf im europäischen Vergleich",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://bildungsklick.de/schule/detail/informatikunterricht-grosser-nachholbedarf-im-europaeischen-vergleich",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "bba70bfc94401deb2baae9a9267c50919dea1e1d3dd1ca978bcf11eda3e88cb6",
+    "complete_article": false
+  },
+  {
+    "id": "491f9ad23f132c488c785c23212a7879fcfeae4f01dac7d6d510603974aea7d8",
+    "title": "Medienkompetenz in der Schule: Was gehört dazu, welche Konzepte gibt es?",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Überblick zu Medienkompetenz deutscher Schülerinnen und Schüler sowie bundesweit relevanten Unterrichtskonzepten; kein einzelner Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://deutsches-schulportal.de/unterricht/medienkompetenz-in-der-schule-was-gehoert-dazu-welche-konzepte-gibt-es/",
+    "basis": "publisher_page_or_search_excerpt",
+    "fetch_status": "robots_unavailable",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "f68549f4caf5e0079adbdd47435bae3a8eed092aad0fe5ca90835420c71dbbdd",
+    "title": "Informatik – Kompetenzentwicklung bei Kindern",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://link.springer.com/article/10.1007/s00287-020-01247-6",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "20465e97e5b6f9580a8a843e3b5787c4a5ebbab5fed926f40882836f4f98ca6d",
+    "complete_article": false
+  },
+  {
+    "id": "960589cc60f4d13e9cd72e045bc07ce59727cee6b9c393304d6a16d7de60f0cb",
+    "title": "Welche sind die Pilotschulen für das neue Pflichtfach Informatik in RLP?",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Bericht zur Einführung bzw. Umsetzung des Pflichtfachs in Rheinland-Pfalz. Der konkrete Schul- oder Ministeriumsbezug liegt in diesem Land.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://lokalo.de/artikel/368472/welche-sind-die-pilotschulen-fuer-das-neue-pflichtfach-informatik-in-rlp/",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "6693a8482162d0e398f27e10f8964783b09edb12bcab6fb90f776ef8949e047f",
+    "complete_article": false
+  },
+  {
+    "id": "a52cde31964b945d1248c5a0fae6e297aa5d54d52852e531b311eff157513ea3",
+    "title": "Jahresbericht2024",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Überregionale Bildungsarbeit oder bildungspolitische Diskussion in Deutschland. Genannte Hochschulorte und einzelne Länderbeispiele begründen keinen eigenen Regionaltag.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://media.stifterverband.org/jahresbericht2024",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_too_long",
+    "text_sha256": "8eb07a92ff7cd818833f956433c03efb7697068ead406b7bf1e24a3245548a27",
+    "complete_article": false
+  },
+  {
+    "id": "2ee5a37c783d8bf69e5d87f46b68c938cb73def9da8369f136bdf7c449eb7816",
+    "title": "Bildung: Warum wir ein Pflichtfach Informatik brauchen",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://netzpolitik.org/2022/bildung-warum-wir-ein-pflichtfach-informatik-brauchen/",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "496500ea4fd0b1e3c0b3cc3a86e21b6675c6aa1374bc331955191840e1126eca",
+    "complete_article": false
+  },
+  {
+    "id": "4ed2e13a6ecbdf794333c38b040b74abeb2dde67ff855b1f20de0bf24002db15",
+    "title": "Japan will Medienkompetenz mit Pflichtfach Informatik fördern",
+    "regions": [
+      "UNK"
+    ],
+    "reason": "Der Beitrag behandelt ausschließlich die Reform des Informatikunterrichts in Japan. Japan ist im vorhandenen Regionsschema nicht enthalten; eine Zuordnung zu Deutschland, Österreich oder der Schweiz wäre falsch.",
+    "status": "outside_region_schema",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://sumikai.com/nachrichten-aus-japan/japan-will-medienkompetenz-mit-pflichtfach-informatik-foerdern-356166/",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "bfe21baac960b75b13b6a3fb232853c148122529092cda09e6fc6eae23a7e186",
+    "complete_article": false
+  },
+  {
+    "id": "8166a27078ec099a03e1f190f9ffd4fbb4a858cb552917bf4406107cda536ef1",
+    "title": "Informatikmonitor 2026: Vier von fünf Schülern haben Informatik als Pflichtfach",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://table.media/bildung/thema-des-tages/informatikmonitor-2026-vier-von-fuenf-schuelern-haben-informatik-als-pflichtfach",
+    "basis": "title_and_source_context",
+    "fetch_status": "robots_unavailable",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "2b94b245e90f8a96b365fbebd6d907a9299c44e3715227f2189c6e1c1f889f17",
+    "title": "Neue Stundentafel für Hamburgs Schulen: Informatik verdrängt Kunstfächer",
+    "regions": [
+      "HH"
+    ],
+    "reason": "Im Mittelpunkt stehen die Einführung des Pflichtfachs und die Unterrichtspraxis an Hamburger Schulen; andere Bundesländer werden nur zum Vergleich erwähnt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://taz.de/Neue-Stundentafel-fuer-Hamburgs-Schulen/!6007509/",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "ae0d99b00f1132a6f12d3d63bfab4a2c693b0cb46fecbe5fb46b4d86440bfe47",
+    "complete_article": false
+  },
+  {
+    "id": "05b2e9d1467a25b78f327b653b66a7be3a01f3c58b72b386b6fe2a7d73f68654",
+    "title": "KI in der Industrie: „Wir können Mitarbeitern nicht einfach eine Blackbox vorsetzen“",
+    "regions": [
+      "SL"
+    ],
+    "reason": "Schwerpunkt ist das Saarland: Universität bzw. Saarpfalz-Gymnasium und die dortige Einführung des Pflichtfachs. Andere Orte sind biografischer Hintergrund oder Vergleich.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.aktiv-online.de/news/ki-in-der-industrie-wir-koennen-mitarbeitern-nicht-einfach-eine-blackbox-vorsetzen-19824",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "5102c94184e1d0644a312bb0364ef94bc5a4d5d833c828dac3a4a69ff0cfdceb",
+    "complete_article": false
+  },
+  {
+    "id": "7249db38ea655b7655817f563de69aaf2a04a437631302ffe1758c652a0563d0",
+    "title": "Großer digitaler Sprung nach vorn",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Bericht zur Einführung bzw. Umsetzung des Pflichtfachs in Rheinland-Pfalz. Der konkrete Schul- oder Ministeriumsbezug liegt in diesem Land.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.allgemeine-zeitung.de/lokales/kreis-alzey-worms/verbandsgemeinde-woerrstadt/woerrstadt/grosser-digitaler-sprung-nach-vorn-4738745",
+    "basis": "title_and_source_context",
+    "fetch_status": "paywall",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "c6f3d3355dfaf6dfc75fbb04fbe61da015adacfc9a69268620c3d6350b84f572",
+    "title": "Mathe-Genies verzweifelt gesucht",
+    "regions": [
+      "BY"
+    ],
+    "reason": "Der Beitrag behandelt bayerische Schulen, Bildungsakteure oder Lehrpläne. Bundesweite Entwicklungen bilden den Hintergrund.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bayerische-staatszeitung.de/staatszeitung/politik/detailansicht-politik/artikel/mathe-genies-verzweifelt-gesucht.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "73d99c16402926e6e9959e24e6c3312c8f38679b3c3bdb14d8a6a1f620b9e07c",
+    "complete_article": false
+  },
+  {
+    "id": "a4fcc7e5abe39ec562a4f2a2fcd9ccb60293a7dd0de5fe5a753b00e4448c6056",
+    "title": "8 von 10 Lehrkräften fordern Informatik als Pflichtfach",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/Presse/Presseinformation/8-von-10-Lehrkraeften-fordern-Informatik-als-Pflichtfach",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "216c09038f1f02dd5b2e90f1ddabeaa9ce5f4e811b079cc58549b1de13690cde",
+    "complete_article": false
+  },
+  {
+    "id": "a0050900b47704c744e9eb3723a365aef8c6ef7c2a169899735ecff1e17c2bed",
+    "title": "Bitkomat: Entscheidungshilfe zur Digitalpolitik",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/Presse/Presseinformation/Bitkomat-Entscheidungshilfe-Digitalpolitik",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "f0294a452144412114802d0695b4ce76a91e8a6b6d4d5901e96bd224d1b4aea1",
+    "complete_article": false
+  },
+  {
+    "id": "a62b13e3ef8d76dac7d9ebad125bf2f0f4071095c839a8e619d0adde705e5da5",
+    "title": "Digitalisierungsschub in der Wirtschaft wird Pandemie überdauern",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/Presse/Presseinformation/Digitalisierungsschub-in-Wirtschaft-wird-Pandemie-ueberdauern",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "a8dcad360da014a87d9ee0a7aeac5b54892c490f0e2bfdf5cc2f5dcb97fa7c19",
+    "complete_article": false
+  },
+  {
+    "id": "cd5dbf24a210b599daebf222a5e602e485330f467eb59a40027f021972ec1129",
+    "title": "Eltern fordern schnellere Digitalisierung der Schulen",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/Presse/Presseinformation/Eltern-fordern-schnellere-Digitalisierung-der-Schulen",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "79643957e1abeaa8947f842a92389d206bb3999b17ddc7885d57dd18f5cff191",
+    "complete_article": false
+  },
+  {
+    "id": "dcabbe86087b48a05118c483dec8f8390e9c93b620f9dfc9a490eda5dbb6a8ec",
+    "title": "Fast die Hälfte der Jugendlichen kann sich Job mit Digital-Bezug vorstellen",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/Presse/Presseinformation/Haelfte-Jugendliche-Job-Digitalbezug",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "303c3de1cc99035c01d60febb1f32f311879b492941abfe717e5f62ab2fc9024",
+    "complete_article": false
+  },
+  {
+    "id": "86a5cb6d367dbaa38366e103fbc2c4dc1a3e9362ec41ec0e151a80a9726e2d9f",
+    "title": "Handyverbot an fast jeder fünften Schule",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/Presse/Presseinformation/Handyverbot-fuenfte-Schule",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "eb0f15f0f80ee65dd069c8b8177c4e95995d70a4d35a4b1d5d87234dfcd9833c",
+    "complete_article": false
+  },
+  {
+    "id": "f252e81b1b239d727f9ae976560e200e5a4b3f028c0dfb4632864d8b8b1c1bb3",
+    "title": "IT-Fachkräftemangel hat sich in den letzten drei Jahren halbiert | Presseinformation",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/Presse/Presseinformation/IT-Fachkraeftemangel-in-den-letzten-drei-Jahren-halbiert",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "538ed1509003d25905beae30735a0596c42b605461a1da90acb97cd258793347",
+    "complete_article": false
+  },
+  {
+    "id": "282af1fa1a2d681563a0df1fdcfa1ca3a1b125f8a6679a00b9f0b0226dab7ba2",
+    "title": "KI-Nutzung boomt – aber die Angst vor Abhängigkeit vom Ausland ist groß",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/Presse/Presseinformation/KI-Nutzung-boomt-Angst-vor-Abhaengigkeit-Ausland-gross",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "6430aef4755082e6bc1d1402a3a5e595a31396077ea980d36ae6f4845498f4d5",
+    "complete_article": false
+  },
+  {
+    "id": "d6e5a97c531f17935cb1d2f46af4a3548df6e6fc66e881be41867b7ae07bbac3",
+    "title": "Mangel an IT-Fachkräften droht sich dramatisch zu verschärfen | Presseinformation",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/Presse/Presseinformation/Mangel-an-IT-Fachkraeften-droht-sich-zu-verschaerfen",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "0e757d8a827acf62fb7a6bc4d58a3d1dd0c6d0b7ea2cf0c99a35ee2593250e01",
+    "complete_article": false
+  },
+  {
+    "id": "43261ad484154cbef0eac2b20676ae1863a676de43434561f0c2049aac857259",
+    "title": "Schüler wollen digitaler lernen – und können es oft nicht",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/Presse/Presseinformation/Schueler-wollen-digitaler-lernen",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "ff7c086763f8ec2b61a571030a5694e3371a34e34724c4dd55530c1ae74716d9",
+    "complete_article": false
+  },
+  {
+    "id": "6eb6b482ed9a1f23d57f3059cb39f0605c5a6003633e5a79cf1d06c78ae392aa",
+    "title": "Digitale Bildung",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/bundestagswahl-2025/gesellschaft/digitale-bildung",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "0608b315462c0a958b3d9bed3aa45d138f2fa4276f30c40ce8965622bee66d03",
+    "complete_article": false
+  },
+  {
+    "id": "3351d25cdaae97423319a9b4a3c60e31930eaa65fe096dd72dd9c9ae333008be",
+    "title": "Podcast Fake News: Wo sie uns begegnen und wie wir sie begrenzen können",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/mediathek/podcasts/Tech-Weekly-Fake-News-Wo-sie-uns-begegnen-und-wie-wir-sie-begrenzen-koennen",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "b1062c3b27d8dc989946aef7436e440940f50f05d0df8f51dcbebfaea20b62b5",
+    "complete_article": false
+  },
+  {
+    "id": "3606eaca110b981c3960d3b054b6237a37e37db37af61f10eb3bf1252c5909d9",
+    "title": "Podcast Warum sind Frauen in der IT-Branche weiter unterrepräsentiert?",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/mediathek/podcasts/Tech-Weekly-Warum-sind-Frauen-in-der-IT-Branche-weiter-unterrepraesentiert",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "2ea6e50ab903618dde88f6b033d5849442097b715ab2c4675e632aaa562817a6",
+    "complete_article": false
+  },
+  {
+    "id": "ab6c9d66a89cf9646e5a59ca56e98c20181fa0d18622b0b31ec625513a7c76e3",
+    "title": "Informatische Bildung als Schlüssel für Zukunftskompetenz",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/sites/default/files/2021-09/210910_grundlagenapier-informatik-unterricht-2.pdf",
+    "basis": "publisher_page_or_search_excerpt",
+    "fetch_status": "insufficient_text",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "3063eab329a899a2c235656fbc8cb8a6695884d1cb3ee7a27e5114ac9e483f15",
+    "title": "Bitkom Fachkräfteprojektion",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/sites/main/files/2024-04/240411Bitkom-Charts-IT-Fachkraftemangel-2040final.pdf",
+    "basis": "publisher_page_or_search_excerpt",
+    "fetch_status": "insufficient_text",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "6afae88695ff25a04be07f6d4eb61208ad88e9cc71229e256855f7093531fc1c",
+    "title": "IT-Mittelstandsbericht 2022",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/sites/main/files/2024-10/studie-bitkom-it-mittelstandsbericht-2024.pdf",
+    "basis": "publisher_page_or_search_excerpt",
+    "fetch_status": "insufficient_text",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "be5149d239bab27569a226cc4418d4ace6e06352353b861874f6439535731e5e",
+    "title": "Digitale Schule | Studienbericht 2025",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/sites/main/files/2025-11/Bitkom-Studienbericht-Digitale-Schule-2025.pdf",
+    "basis": "publisher_page_or_search_excerpt",
+    "fetch_status": "fetch_failed",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "6b2829722ba2dc1c3bd5320c000a3fd7dd27220c723ffdbe327665a9bbbee5da",
+    "title": "Positionspapier: Digitalkompetenz-Offensive",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/sites/main/files/2026-07/bitkom-positionspapier-digitalkompetenz-offensive-fuer-deutschland.pdf",
+    "basis": "publisher_page_or_search_excerpt",
+    "fetch_status": "insufficient_text",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "d997efecfc0246f3171e2c14b54167aaecbbec8f87bc6d87c00a2bf526cbbb4d",
+    "title": "Der Arbeitsmarkt für IT-Fachkräfte | Studie 2025",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Untersuchung, Forderung oder Diskussion zur Digitalisierung und Bildung in Deutschland. Berlin ist der Veröffentlichungsort des Verbands, kein Landesschwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.bitkom.org/sites/main/files/2026-09/bitkom-studienbericht-arbeitsmarkt-it-fachkraefte-2026.pdf",
+    "basis": "publisher_page_or_search_excerpt",
+    "fetch_status": "insufficient_text",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "de793a6c9bbd8ee8c97a62f17cc2b2efb415094bd5beb13940ef5527e44eecf0",
+    "title": "Informatik als Pflicht? Diese Schüler aus Braunschweig lieben es",
+    "regions": [
+      "NI"
+    ],
+    "reason": "Der Titel und die lokale Einordnung beziehen sich ausdrücklich auf Schulen in Braunschweig bzw. Meppen und damit auf Niedersachsen.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.braunschweiger-zeitung.de/niedersachsen/braunschweig/article406609881/informatik-an-braunschweigs-schulen.html",
+    "basis": "title_and_source_context",
+    "fetch_status": "paywall",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "10ee09389183b44440e5ef4324eb80a7099d1da2a5e727c4c89f5f2a740505c9",
+    "title": "Informatik soll Pflichtfach werden",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.connect-professional.de/markt/informatik-als-pflichtfach-403935.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "0a617f7bbfa6f7ca1db34a3f968d31f3590ae5bf05f2c29c56c1feb06c40ab01",
+    "complete_article": false
+  },
+  {
+    "id": "ebbbe0346cbceff247b6080ccd92068b1f6056c4ba59fde6384c7ef6d04f1591",
+    "title": "Informatik ist Allgemeinbildung und sollte Pflichtfach werden",
+    "regions": [
+      "AT"
+    ],
+    "reason": "Die Gastbeiträge gehören zur Debatte um einen verpflichtenden Informatikunterricht in Österreich; der Gegenbeitrag benennt diesen Bezug ausdrücklich.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.derstandard.at/story/3000000254867/informatik-ist-allgemeinbildung-und-sollte-pflichtfach-werden",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "cabeaa896016bb1e8211af24768ccd8d1f8844c5af7206dbacb5a62e3b543f68",
+    "complete_article": false
+  },
+  {
+    "id": "ca29ebd37790bc8fa96882903cf63d7d2a20a50b42a5b1a98c861a0a43dc745f",
+    "title": "Informatik als Pflichtfach? Bildung sollte sich nicht am Zeitgeist orientieren - Kommentare der anderen",
+    "regions": [
+      "AT"
+    ],
+    "reason": "Die Gastbeiträge gehören zur Debatte um einen verpflichtenden Informatikunterricht in Österreich; der Gegenbeitrag benennt diesen Bezug ausdrücklich.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.derstandard.at/story/3000000257638/informatik-als-pflichtfach-bildung-sollte-sich-nicht-am-zeitgeist-orientieren",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "5c70db5bf6bea8a92304d2d530083008905f42d087d9c2e95dc15eced933a6a6",
+    "complete_article": false
+  },
+  {
+    "id": "810b70c7c9914f2f7264c0f489b7f195045f8268c227576ff8f66918f24c3e80",
+    "title": "Thüringer Grundschule in der Krise: Lehrermangel und Sanierungsstau",
+    "regions": [
+      "TH"
+    ],
+    "reason": "Schulbericht über eine Thüringer Grundschule; der örtliche Schwerpunkt ist bereits im Titel eindeutig.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.faz.net/aktuell/karriere-hochschule/klassenzimmer/schulbesuch/thueringer-grundschule-in-der-krise-lehrermangel-und-sanierungsstau-110721804.html",
+    "basis": "title_and_source_context",
+    "fetch_status": "paywall",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "4c116d101a0128d03d2abd8bc0ce3596fcf6b9cf34b895e38b069b9e2bb6b77b",
+    "title": "Neue Daten: Informatikunterricht bleibt die Ausnahme",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.faz.net/aktuell/karriere-hochschule/neue-daten-informatikunterricht-bleibt-die-ausnahme-19247334.html",
+    "basis": "publisher_page_or_search_excerpt",
+    "fetch_status": "paywall",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "fda86a23e6ed4d5131ce1fc159c5459591492635e268915193fb39c87c4b5adb",
+    "title": "Informatikunterricht: Der lange Weg zum Pflichtfach Informatik",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.heise.de/hintergrund/Informatikunterricht-Der-lange-Weg-zum-Pflichtfach-Informatik-6228885.html",
+    "basis": "title_and_source_context",
+    "fetch_status": "robots_blocked",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "846914670ca2f6b73a5291057820fee34d5b269cc5c4b042a4e4604a259d3225",
+    "title": "Jugendwettbewerb Informatik – Teilnahmerekord",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.heise.de/news/Jugendwettbewerb-Informatik-Teilnahmerekord-10348438.html",
+    "basis": "title_and_source_context",
+    "fetch_status": "robots_blocked",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "cfe1822b099a1776d825170640c45de57a2880f6e5d66b35be961e77abef445e",
+    "title": "Informatikunterricht in Klasse 6 – LehrerInnenZimmer",
+    "regions": [
+      "BY"
+    ],
+    "reason": "Der Beitrag behandelt bayerische Schulen, Bildungsakteure oder Lehrpläne. Bundesweite Entwicklungen bilden den Hintergrund.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.herr-rau.de/wordpress/2017/11/informatikunterricht-in-klasse-6.htm",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "d9c2f69fcf08fe0c8b6b4a6b2c5c479afb89018f6d52035652d24419c881ac02",
+    "complete_article": false
+  },
+  {
+    "id": "d5ec6114a145b8e6682a8922a31147233e94a98fdcc14ecf12cb947a48207475",
+    "title": "Lehrkräfte fordern Informatik als Pflichtfach",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Repräsentative Befragung von Lehrkräften in Deutschland; Bayern und Bremen werden nur als Beispiele genannt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.it-daily.net/it-management/digitalisierung/informatik-pflichtfach",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "ce3190fd01e1828cf16e720cb0ed6b64cc1fc5f57eaa26b46014b3de6f09f8c9",
+    "complete_article": false
+  },
+  {
+    "id": "bec28549c82144ae27299679e2aac374995ddc7009c9b0cbaa6b1a9a134caa6b",
+    "title": "Tablets und Smartphones im Unterricht: Digitalisierung an Schulen: Wer zahlt’s?",
+    "regions": [
+      "BY"
+    ],
+    "reason": "Der Beitrag behandelt bayerische Schulen, Bildungsakteure oder Lehrpläne. Bundesweite Entwicklungen bilden den Hintergrund.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.merkur.de/bayern/tablets-und-smartphones-im-unterricht-digitalisierung-an-schulen-wer-zahlt-s-8213353.html",
+    "basis": "publisher_page_or_search_excerpt",
+    "fetch_status": "robots_blocked",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "8439ad15164c4bc22fc21edfcce7c081c28be0b81012fc03aa1a4c571291714f",
+    "title": "Wie läuft das Pflichtfach Informatik an Hamburgs Schulen?",
+    "regions": [
+      "HH"
+    ],
+    "reason": "Im Mittelpunkt stehen die Einführung des Pflichtfachs und die Unterrichtspraxis an Hamburger Schulen; andere Bundesländer werden nur zum Vergleich erwähnt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.ndr.de/fernsehen/sendungen/hamburg_journal/wie-laeuft-pflichtfach-informatik-an-hamburgs-schulen,hamj-4046.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "44de55060981808624b2f9f4bd880b991c056027a9663111f9b723239d24d4ab",
+    "complete_article": false
+  },
+  {
+    "id": "e31c26a6486076beb10c5da3fa63b7f4306e1cd8ba57e8314aa5f71658189c65",
+    "title": "Informatik ist jetzt Pflichtfach: So läuft es an Hamburgs Schulen",
+    "regions": [
+      "HH"
+    ],
+    "reason": "Im Mittelpunkt stehen die Einführung des Pflichtfachs und die Unterrichtspraxis an Hamburger Schulen; andere Bundesländer werden nur zum Vergleich erwähnt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.ndr.de/nachrichten/hamburg/informatik-jetzt-pflichtfach-so-laeuft-es-in-hamburg,informatik-104.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "c0e415ea7e1d1567ec5bb3721026bbea9140ce46000493d96d9f8c138546447c",
+    "complete_article": false
+  },
+  {
+    "id": "f4f76bf19a5b9d7f6d757b4b179fa5dc5fcfa98e65a199b84c59db46fe0aaf12",
+    "title": "Meppen: Windthorst-Gymnasium führt Pflichtfach Informatik ein",
+    "regions": [
+      "NI"
+    ],
+    "reason": "Der Titel und die lokale Einordnung beziehen sich ausdrücklich auf Schulen in Braunschweig bzw. Meppen und damit auf Niedersachsen.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.noz.de/lokales/meppen/artikel/meppen-windthorst-gymnasium-ist-vorreiter-in-sachen-informatik-41984845",
+    "basis": "title_and_source_context",
+    "fetch_status": "paywall",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "be6722f213c8c17f8e2d38e2ebfea0026c85b977c80387f0fa4189513a79c9bd",
+    "title": "Digital-Gipfel 2023: Holdorferin Verena Witte fordert Pflichtfach Informatik",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Forderung nach einem Pflichtfach beim Digital-Gipfel; die Herkunft der Beteiligten aus Holdorf ist kein Beleg für eine auf Niedersachsen beschränkte Forderung. Zuordnung anhand des verfügbaren Titels und Veranstaltungskontexts, Volltext nicht zugänglich.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.om-online.de/politik/artikel/digital-gipfel-2023-holdorferin-verena-witte-fordert-pflichtfach-informatik-50335868",
+    "basis": "title_and_source_context",
+    "fetch_status": "paywall",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "bbf0d144f6ba3b4861f336a67f1180211e8a51ecb9f683639210993578706718",
+    "title": "Pflichtfach Informatik: Diese Fächer werden dafür jetzt gekürzt - Herxheim",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Bericht zur Einführung bzw. Umsetzung des Pflichtfachs in Rheinland-Pfalz. Der konkrete Schul- oder Ministeriumsbezug liegt in diesem Land.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.rheinpfalz.de/lokal/kreis-suedliche-weinstrasse_artikel,-pflichtfach-informatik-diese-f%C3%A4cher-werden-daf%C3%BCr-jetzt-gek%C3%BCrzt-_arid,5806092.html",
+    "basis": "title_and_source_context",
+    "fetch_status": "paywall",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "ed0a5eb793cbcdf9b15f6fd5af3f95fe68668bd6245e40e165dedda0d1fee103",
+    "title": "Ehrungen am Saarpfalz-Gymnasium Homburg: Große Auszeichnung für junge Informatiker",
+    "regions": [
+      "SL"
+    ],
+    "reason": "Schwerpunkt ist das Saarland: Universität bzw. Saarpfalz-Gymnasium und die dortige Einführung des Pflichtfachs. Andere Orte sind biografischer Hintergrund oder Vergleich.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.saarbruecker-zeitung.de/saarland/saar-pfalz-kreis/homburg/grosse-auszeichnung-fuer-junge-informatiker_aid-92489463",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "536dbee64282f759d17f933067a981abdbf395d5801e4c1ea20201761933479c",
+    "complete_article": false
+  },
+  {
+    "id": "05d106fb0d243231ef17d67bd381ef7d685361e7d6af5a3bd6bec3b6619a8375",
+    "title": "Informatik ab Klasse fünf – wie das Saarpfalz-Gymnasium in Homburg zum Vorreiter wurde",
+    "regions": [
+      "SL"
+    ],
+    "reason": "Schwerpunkt ist das Saarland: Universität bzw. Saarpfalz-Gymnasium und die dortige Einführung des Pflichtfachs. Andere Orte sind biografischer Hintergrund oder Vergleich.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.saarbruecker-zeitung.de/saarland/saar-pfalz-kreis/homburg/informatik-ab-klasse-fuenf-saarpfalz-gymnasium-in-homburg-als-vorreiter_aid-67985985",
+    "basis": "title_and_source_context",
+    "fetch_status": "paywall",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "158a31e1889be19b8d9bbfb1487c3a011c612093f6547a30bd2d38280965f42f",
+    "title": "SPD fordert neues Pflichtfach Informatik für Schulen",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Forderung der SPD-Bundestagsfraktion an alle Länder. Mainz ist der Tagungsort; Nordrhein-Westfalen erscheint in einer ergänzenden Stellungnahme.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.spiegel.de/lebenundlernen/schule/spd-fordert-neues-pflichtfach-informatik-fuer-schulen-a-1051061.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "ccc4d09bfde96264597eca4ae03a9135d374826135c6c11d3e21f3b76fa1a797",
+    "complete_article": false
+  },
+  {
+    "id": "04ef5bff333722b92d99ed25045f149d79618586a62f0b4f3646f36db88e178d",
+    "title": "MINT-Lücke schließen: Analysen & Publikationen",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Überregionale Bildungsarbeit oder bildungspolitische Diskussion in Deutschland. Genannte Hochschulorte und einzelne Länderbeispiele begründen keinen eigenen Regionaltag.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/bildung-kompetenzen/mint-luecke-schliessen/analysieren",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "266c0ae1d2e90afb71f3039db89e15adf74e1b28e6c128054eedbc2b51ea9fab",
+    "complete_article": false
+  },
+  {
+    "id": "bcd1dc5d0de187eebb6e735d53a5a7b8349cd209f24d968f53197b77f8818aca",
+    "title": "Handlungsempfehlungen an die Politik",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Überregionale Bildungsarbeit oder bildungspolitische Diskussion in Deutschland. Genannte Hochschulorte und einzelne Länderbeispiele begründen keinen eigenen Regionaltag.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/bildung-kompetenzen/mint-luecke-schliessen/handlungsempfehlungen-an-die-politik",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "4e1390fbb4c93bd7f81c920f084998ab6ad8954b0a8c7c792b47b90555a6f2cb",
+    "complete_article": false
+  },
+  {
+    "id": "7f2cf3d50a4d0f0ea0a2d2637af8c3a159ecf7b639c7bcaa8f0a84cb24b0a17b",
+    "title": "Informatik-Monitor 2023/24: Zusammenfassung der Ergebnisse",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/informatik-monitor-2023-2024-zusammenfassung",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "9b2835fbd7f78503da23eb124a29403d8daf8e15ee0c859a7fa56e44ab6fa0ea",
+    "complete_article": false
+  },
+  {
+    "id": "30fc98fb20d3d2c671dc5f5ac2b00167a109216260c548e5150599f970b7c83d",
+    "title": "Informatik-Monitor 2024/25: Zusammenfassung der Ergebnisse",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/informatik-monitor-2024-2025-zusammenfassung",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "400b4239a4417398d9209027d7c50bee784c02b0d52d6e963c2ac956237ba1fb",
+    "complete_article": false
+  },
+  {
+    "id": "9fe0cf0af9150fe547dfed5a4dd0ddeb2c9afa435f71d74d3274d6cfb151a646",
+    "title": "Mensch und Technik",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Überregionale Bildungsarbeit oder bildungspolitische Diskussion in Deutschland. Genannte Hochschulorte und einzelne Länderbeispiele begründen keinen eigenen Regionaltag.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/insights/bildung-kompetenzen/future-skills/mensch-und-technik",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "d6683c5831db3428fd6d5f36d4bc23a246997f53a09207a5f1c65650fbc569de",
+    "complete_article": false
+  },
+  {
+    "id": "e8a3e83dad95bdca4733522c932538900dbde29bd9e05a2099b5b0cf03f16cf8",
+    "title": "Mädchen brauchen (nicht nur) coole Vorbilder",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Überregionale Bildungsarbeit oder bildungspolitische Diskussion in Deutschland. Genannte Hochschulorte und einzelne Länderbeispiele begründen keinen eigenen Regionaltag.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/insights/bildung-kompetenzen/mint-fachkraefte/maedchen-brauchen-nicht-nur-coole-vorbilder",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "639367513a795d572e43a0dfcb19993932d3096aec6b830721a2eb2bbb23f462",
+    "complete_article": false
+  },
+  {
+    "id": "2a708e169c97dc18bed0915cd030feeb1319acf7258535f054a20792bab03a99",
+    "title": "„Wir nehmen den jungen Menschen ein Stück Zukunft weg“",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Das Interview behandelt den Informatiklehrkräftemangel und Pflichtunterricht in Deutschland; der Abbau von Leistungskursen in Bremen wird ausdrücklich als Beispiel angeführt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/insights/bildung-kompetenzen/mint-fachkraefte/wir-nehmen-den-jungen-menschen-ein-stueck-zukunft-weg",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "73b4f6e6533963a61124da8752e487eef90ee87f44b4ed7712f69360fecbb353",
+    "complete_article": false
+  },
+  {
+    "id": "419b7bb4c756ce5f0750f427ac897fd5839c21fe0d96ebaf6518878c15bf235e",
+    "title": "Informatik für alle!",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/medien/informatik-fuer-alle",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "8c04bded748dd4f7d717a038b6e101a8459a119c7975b13d08250b2bbadba502",
+    "complete_article": false
+  },
+  {
+    "id": "31bac3d91a8387198a8486d159002e12283fdc833880473d990604c0199d4fc2",
+    "title": "Informatik-Monitor 2025/26: Spotlights zur Schulinformatik",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/medien/informatik-monitor_2025-2026_spotlights_schulinformatik",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "f5e8d4bea793a1f9e99639b09091b52f4fdc8a930d9db6df6100ae844c422331",
+    "complete_article": false
+  },
+  {
+    "id": "3bb8f897f8116f368ac4460ee3a3e8d248ae21412afb3c0beda347b1566988be",
+    "title": "Informatik-Monitor 2026/27: Zwischenbilanz zur Informatik an Schulen",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/medien/informatik-monitor_2026-2027_zwischenbilanz_informatik_an_schulen",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "b3cb4f7f864dcbc3a483daf02e70ea4e817fe92654a2d0544e5ed901f2d4063e",
+    "complete_article": false
+  },
+  {
+    "id": "e3e95282442377281e7e9908e58c7affe0a311eeaed2d599c090e6493bd020e4",
+    "title": "Wir brauchen nicht neue Projekte, sondern neue Wege der Skalierung",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Überregionale Bildungsarbeit oder bildungspolitische Diskussion in Deutschland. Genannte Hochschulorte und einzelne Länderbeispiele begründen keinen eigenen Regionaltag.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/positionen/andrea_frank_zukunftsmission_bildung",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "358105f8ad4c8d7a099206886923a53718025e406e90e7f7df1514f8530df722",
+    "complete_article": false
+  },
+  {
+    "id": "71e9e8a5384d58ee78714f3b7f6f1ff64441378b9a0e54f32796337a82558c70",
+    "title": "Volker Meyer-Guckel: Informatik für alle – was jetzt zu tun ist",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/positionen/meyer-guckel_informatikunterricht",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "91e9373d91dbfb6ffa0412a9d79125abc229f9487161c422c4b8d8f5889586ef",
+    "complete_article": false
+  },
+  {
+    "id": "92d27c22534cc17a509ed8ea8eb44dc53ed6c45b9594d0c00570ab7a8e7919b6",
+    "title": "Studie \"Informatikunterricht: Lückenhaft und unterbesetzt\"",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/pressemitteilungen/2022_09_07_informatikunterricht",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "1c188c6b512adc2cd1ba1e4fda80c8a7ebd4aca60c52bc9f892bc7611593d505",
+    "complete_article": false
+  },
+  {
+    "id": "00760447a3dc3963966f9cc029964497985caabf09be2621f74595befd331d28",
+    "title": "Pressemitteilungen 2025",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Überregionale Bildungsarbeit oder bildungspolitische Diskussion in Deutschland. Genannte Hochschulorte und einzelne Länderbeispiele begründen keinen eigenen Regionaltag.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/pressemitteilungen_2025",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "45903b6e32463b208ae6b5d8eaff59a7bc0140bd32164630d49223653e6fefa5",
+    "complete_article": false
+  },
+  {
+    "id": "3c0ba62e4fb1e326785e38b758cb0b1eb9c72836b00284d942a04018c6c668f5",
+    "title": "Spotlights zur Schulinformatik aus dem Informatik-Monitor 2025/26",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.stifterverband.org/sites/default/files/2025-10/informatik-monitor_2025-2026_spotlights_schulinformatik.pdf",
+    "basis": "publisher_page_or_search_excerpt",
+    "fetch_status": "insufficient_text",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "a0e215285feabaee40a075d21fc83cff5fd14367514e9692f58d3e02e1300d4f",
+    "title": "Informatik als Pflichtfach – Was Schüler lernen sollten",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.swr.de/swr2/wissen/informatik-als-pflichtfach-was-schueler-lernen-sollten-swr2-wissen-2023-09-16-104.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "d89d1c935326de81998d505216e15772f2dcd91ae78c98d2fa4ba687edd6cfc2",
+    "complete_article": false
+  },
+  {
+    "id": "2187bcdb561ad4558ccd9b754f83a44e7ed820565abaa307ffb791f0cf2ad30a",
+    "title": "Neues Unterrichtsfach 'Informatik und Medienbildung' in BW: Sind Lehrer ausreichend vorbereitet?",
+    "regions": [
+      "BW"
+    ],
+    "reason": "Der neue Bildungsplan und die Einführung von Informatik und Medienbildung in Baden-Württemberg stehen im Mittelpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.swr.de/swraktuell-radio/medienbildung-schule-unterricht-lehrer-ausreichend-vorbereitet-100.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "5aa9c307fad8f074959057bb0fd43a754fd5393db6f890c3e019633eef0d1ae0",
+    "complete_article": false
+  },
+  {
+    "id": "52d033beb0cf3f47f496f418cfc29b9d8868b577113a43ab5451b42a313b9d98",
+    "title": "Schulfach \"Informatik und Medienbildung\": Was es aus Sicht eines Experten unbedingt braucht",
+    "regions": [
+      "BW"
+    ],
+    "reason": "Der neue Bildungsplan und die Einführung von Informatik und Medienbildung in Baden-Württemberg stehen im Mittelpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.swr.de/swraktuell/baden-wuerttemberg/neues-schulfach-informatik-medienbildung-interview-erziehungswissenschaftler-thomas-knaus-100.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "a66cb0caffbf659ec1f97c9decfec85d8a0b64fc1edfd4faf07525a5f06cc2a6",
+    "complete_article": false
+  },
+  {
+    "id": "12000819caad8c70ab31003f57dd1c48616e954e7506a9862e2a2d8265e9dee3",
+    "title": "An den Schulen wird Medienbildung zum Pflichtfach für Kinder: Daran hapert es zum Start",
+    "regions": [
+      "BW"
+    ],
+    "reason": "Der neue Bildungsplan und die Einführung von Informatik und Medienbildung in Baden-Württemberg stehen im Mittelpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.swr.de/swraktuell/baden-wuerttemberg/neues-schulfach-informatik-und-medienbildung-vorbereitung-schuljahr-2025-2026-100.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "9bce207699decdfc5111c76b33ccc34785639342a14a19d2704a7decaa79fdf8",
+    "complete_article": false
+  },
+  {
+    "id": "3e0c580d76411b450c58ea9a5e2358fb9eabd2b27890b53ec29a87522846c3b7",
+    "title": "28 Pilotschulen in RLP starten mit Informatik als Pflichtfach",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Bericht zur Einführung bzw. Umsetzung des Pflichtfachs in Rheinland-Pfalz. Der konkrete Schul- oder Ministeriumsbezug liegt in diesem Land.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.swr.de/swraktuell/rheinland-pfalz/informatik-pflichtfach-minister-teuber-stellt-schulen-fuer-pilotphase-vor-100.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "8d22d29e8904928fcf38c14a26aeb62364ccff9e85fb8e1297e72a1f976ae282",
+    "complete_article": false
+  },
+  {
+    "id": "5488871e40ce596eba80a8ae816f05d805bf304c34ac603d0a57a1c94e76fe53",
+    "title": "Zurück in der Schule: Keine unangekündigten HÜ mehr - Und was ist noch neu?",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Bericht zur Einführung bzw. Umsetzung des Pflichtfachs in Rheinland-Pfalz. Der konkrete Schul- oder Ministeriumsbezug liegt in diesem Land.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.swr.de/swraktuell/rheinland-pfalz/neues-schuljahr-schulanfang-zahlen-fakten-neuerungen-100.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "6cd43a4e8a7dd6d5318c53fdde90221d6e048bdff0e8f744a34fa6e18588e457",
+    "complete_article": false
+  },
+  {
+    "id": "3c2996ebc4782e0f7a5bd91225e5527eccf6991f6519ad743b552b12887c4d80",
+    "title": "Pflichtfach Informatik wird an Pilotschulen eingeführt",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Bericht zur Einführung bzw. Umsetzung des Pflichtfachs in Rheinland-Pfalz. Der konkrete Schul- oder Ministeriumsbezug liegt in diesem Land.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.swr.de/swraktuell/rheinland-pfalz/pflichtfach-informatik-100.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "insufficient_text",
+    "text_sha256": "14be0fdd1db070a96f82f84c3b8e3a270b1b2b4b02354eb22582dfe7072c3594",
+    "complete_article": false
+  },
+  {
+    "id": "468d9bc4f501ac73ba40206cc0c75e3284d0cd83875a3562c321c989b73781f9",
+    "title": "Informatik soll am Gymi Pflichtfach werden",
+    "regions": [
+      "CH"
+    ],
+    "reason": "Entscheidung der Schweizer Erziehungsdirektorenkonferenz zur schweizweiten Verankerung von Informatik am Gymnasium. Der Sitz des veröffentlichenden Mediums in Liechtenstein ist dafür unerheblich.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.vaterland.li/regional/schweiz/informatik-soll-am-gymi-pflichtfach-werden-art-297816",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "96a4d37a31aae59511f87c7c5e1e9830dce46d2cc2b63addb41316024e773bf1",
+    "complete_article": false
+  },
+  {
+    "id": "8480e36ec95b410cae5cb5d53b33e253b33ac39490a275b9606495ab92a23095",
+    "title": "Schulfach Informatik: Rohrkrepierer oder wichtiger denn je?",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Bundesweite Analyse bzw. Diskussion des Informatikunterrichts. Einzelne Länder dienen als Beispiele oder Vergleich; kein einzelnes Bundesland bildet den Schwerpunkt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.vdi-nachrichten.com/karriere/bildung/schulfach-informatik-ein-rohrkrepierer/",
+    "basis": "publisher_page_or_search_excerpt",
+    "fetch_status": "paywall",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "d4f0322ae23afc8d95ea7fea5fddcdc7fa5cb77b7ffa4335561a6f17eb352c64",
+    "title": "„Wichtig für unsere Gesellschaft – das Arbeitsleben und das kulturelle Miteinander“",
+    "regions": [
+      "HH"
+    ],
+    "reason": "Im Mittelpunkt stehen die Einführung des Pflichtfachs und die Unterrichtspraxis an Hamburger Schulen; andere Bundesländer werden nur zum Vergleich erwähnt.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.welt.de/regionales/hamburg/article253205922/Informatik-an-der-Schule-Wichtig-fuer-unsere-Gesellschaft-das-Arbeitsleben-und-das-kulturelle-Miteinander.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "ca9d011ecad6ef4abcc7dba4a8ba997c1b5b9dbfc07e3eba4544b8535aed4bad",
+    "complete_article": false
+  },
+  {
+    "id": "bdc325ce38f2a488a5266228b06b0956382873c8120787c8b2da7a22f7b58ce0",
+    "title": "Ministerin: Pflichtfach Informatik sorgt für Schub bei MINT",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Bericht zur Einführung bzw. Umsetzung des Pflichtfachs in Rheinland-Pfalz. Der konkrete Schul- oder Ministeriumsbezug liegt in diesem Land.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.welt.de/regionales/rheinland-pfalz-saarland/article6aa7f5221e576e6f7a14d04f/ministerin-pflichtfach-informatik-sorgt-fuer-schub-bei-mint.html",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "39d72ebac2bb526bd6a121da7d3775cdf29a2dd305d97d5dd867fdcad16ebeda",
+    "complete_article": false
+  },
+  {
+    "id": "c62c64e8736568e919b6b3d6351310b49a743923e038760686df8b88857ec3dd",
+    "title": "Universität Trier startet neue Informatik-Weiterbildung für Lehrkräfte",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Bericht zur Einführung bzw. Umsetzung des Pflichtfachs in Rheinland-Pfalz. Der konkrete Schul- oder Ministeriumsbezug liegt in diesem Land.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.wochenspiegellive.de/stadt-trier/artikel/universitaet-trier-startet-neue-informatik-weiterbildung-fuer-lehrkraefte",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "82d5384b68fe3b7c17d46eaef957c2521a5d794785471c380e6c268317044093",
+    "complete_article": false
+  },
+  {
+    "id": "4610f7e493ed5157c48a3173b3227152533522b4cd9f82801be40c4317676a4e",
+    "title": "Bergische Uni: Fachtagung zum Thema Informatik und Schule",
+    "regions": [
+      "NW"
+    ],
+    "reason": "Bericht über die Wuppertaler Fachtagung, den neuen NRW-Lehrplan und die Lehrkräftebildung an der Bergischen Universität. Überregionale Tagungsthemen ändern diesen konkreten Schwerpunkt nicht.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.wuppertaler-rundschau.de/lokales/bergische-uni-fachtagung-zum-thema-informatik-und-schule_aid-62635739",
+    "basis": "source_text_and_context",
+    "fetch_status": "text_available",
+    "text_sha256": "2d541dcd1aa7c73568bc02ff3f4757c854abbdd98f13ddacebc9bbf8091d6bb8",
+    "complete_article": false
+  },
+  {
+    "id": "509717f665d6c0296a4b83984e4f9f6894e67c7699b898a666478ac0851621b6",
+    "title": "Digitalisierung: Informatik für alle",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Allgemeiner bildungspolitischer Beitrag zur digitalen Mündigkeit und zum Koalitionsvertrag auf Bundesebene.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.zeit.de/gesellschaft/schule/2018-02/digitalisierung-informatikunterricht-schulen-bildung",
+    "basis": "publisher_page_or_search_excerpt",
+    "fetch_status": "fetch_failed",
+    "text_sha256": null,
+    "complete_article": false
+  },
+  {
+    "id": "64d091f830983dea9ed7e87c44806ce93a652da77419aaebca8648c805080d12",
+    "title": "Schule: Ministerin: Pflichtfach Informatik sorgt für Schub bei MINT",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Bericht zur Einführung bzw. Umsetzung des Pflichtfachs in Rheinland-Pfalz. Der konkrete Schul- oder Ministeriumsbezug liegt in diesem Land.",
+    "status": "region_verified",
+    "method": "regional_review",
+    "checked_at": 1793786471,
+    "source_url": "https://www.zeit.de/news/2026-09/14/ministerin-pflichtfach-informatik-sorgt-fuer-schub-bei-mint",
+    "basis": "title_and_source_context",
+    "fetch_status": "fetch_failed",
+    "text_sha256": null,
+    "complete_article": false
+  }
+]

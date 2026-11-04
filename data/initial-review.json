@@ -1,0 +1,306 @@
+[
+  {
+    "id": "1ea0a1e0e3f4730a46ddf9f6a08022520f9d29b71e4c2606cadc0dd4e87940dd",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793714808,
+    "source_url": "https://taz.de/Informatik-Unterricht-in-Hamburg/!6113419/",
+    "text_sha256": "ca4409e59738884404eebc13b7a5019f27efca98e3975f3bd68861fd1aad9611",
+    "regions": [
+      "HH"
+    ],
+    "reason": "Der Bericht behandelt den Hamburger Schulversuch und die dortige Debatte um geschlechtergerechten Unterricht. Sachsen und Mecklenburg-Vorpommern liefern nur Vergleichsdaten; Schleswig-Holstein erscheint im Namen einer Fachgruppe.",
+    "evidence": "Als Hamburg die Informatik zum Pflichtfach ernannte",
+    "summary": "Ein Hamburger Schulversuch zeigt Unterschiede im Interesse von Mädchen und Jungen am Informatikunterricht. Der Beitrag stellt Vorschläge für getrennte Kurse, Einwände dagegen und Empfehlungen der Schulbehörde zur Unterrichtsgestaltung gegenüber.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "0dd20321bc3e7b2527d2690f12154fb174c990d5f163408d9d15dbe9ebce7de0",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793714808,
+    "source_url": "https://bildungsklick.de/schule/detail/informatikunterricht-klasse-5-fundament-umgang-digital",
+    "text_sha256": "7939c2a0f92c59e4f7c3c6fe00336b64770f3d6765bb313e8b56d221bd8772a3",
+    "regions": [
+      "MV"
+    ],
+    "reason": "Die Meldung erläutert ausschließlich Unterricht, Rahmenpläne und Fortbildung in Mecklenburg-Vorpommern. Die bundesweite Fortbildungsplattform ist kein zusätzlicher regionaler Schwerpunkt.",
+    "evidence": "In Mecklenburg-Vorpommern erwerben Schüler:innen",
+    "summary": "Mecklenburg-Vorpommern beschreibt die Inhalte seines Informatikunterrichts ab Klasse 5, darunter Medienkritik, Softwareentwicklung und aktuelle KI-Themen. Lehrkräfte werden durch Materialien und Fortbildungen unterstützt.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "a7b2f8f5ea7ec05aae47b7e256439a1cfe391452cd727cb0d9de21f68ed36c5e",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793714808,
+    "source_url": "https://www.rbb24.de/panorama/beitrag/2025/10/informatik-schule-berlin-brandenburg-pflichtfach.html",
+    "text_sha256": "d522250ef0e6dd305a2a5c19e1566ac7687a39961eaacab9c0ba06a06de8abd0",
+    "regions": [
+      "BE"
+    ],
+    "reason": "Im Mittelpunkt stehen Berliner Schulen, Ferienkurse, Verbandsforderungen und die Antwort der Berliner Bildungsverwaltung. Thüringen, Saarland und Mecklenburg-Vorpommern dienen nur dem Vergleich.",
+    "evidence": "Informatik als Pflichtfach in Berlin nicht absehbar",
+    "summary": "Der Beitrag untersucht, warum Informatik in Berlin weiterhin überwiegend freiwillig bleibt. Er berichtet über private Lernangebote, Forderungen nach einem Pflichtfach und die strukturellen sowie personellen Voraussetzungen, auf die die Bildungsverwaltung verweist.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "f959b8447754fcb2342242fd639dc79c9e9983c3aa24c0277c9fb4cfcf98c0d2",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793714808,
+    "source_url": "https://www.hl-live.de/text.php?id=182858",
+    "text_sha256": "7011114d8a56ceef5f223bc2feacf9e7b6d778f835a9dc7af13d438d7e0cfc9f",
+    "regions": [
+      "SH"
+    ],
+    "reason": "Der vollständige Bericht kündigt ein örtliches Fachforum der Universität zu Lübeck mit Lehrkräften an. Der Bezug liegt in Schleswig-Holstein; es ist keine bundesweite Fachentscheidung.",
+    "evidence": "Lübeck - St. Jürgen",
+    "summary": "Ein Forum der Universität zu Lübeck befasst sich am 17. November 2026 mit KI und verpflichtendem Informatikunterricht. Lehrkräfte und Fachleute sollen Unterrichtsbeispiele und notwendige Kompetenzen diskutieren.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "27dd99ae64da3c1a5f9b0285504755126f01bafc199b4d1a37f8d57d0e7a3026",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793714808,
+    "source_url": "https://www.news4teachers.de/2025/10/informatik-wird-pflichtfach-fast-ueberall-nur-noch-drei-bundeslaender-ohne-plaene/",
+    "text_sha256": "6306817bcd009118df005bb0c2c2dabeb87e155d94df5241dbb68d76acc141dd",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Der Artikel wertet den bundesweiten Informatik-Monitor aus und diskutiert Lehrkräftemangel, Unterrichtsumfang und Oberstufenregeln insgesamt. Einzelne Länder sind Vergleichsbeispiele; BERLIN ist die Ortszeile.",
+    "evidence": "Immer mehr Schülerinnen und Schüler in Deutschland lernen künftig verpflichtend Informatik.",
+    "summary": "Der Informatik-Monitor 2025/26 zeigt eine wachsende Verbreitung des Pflichtfachs, aber deutliche Unterschiede im Unterrichtsumfang. Der Beitrag beschreibt den Lehrkräftemangel und die schwache Stellung der Informatik in der Oberstufe als zentrale Probleme.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "d7193b64de82e81e94bbd093eecad3aa02e9a7df003ce526c3a5b429726c46a4",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793714808,
+    "source_url": "https://www.tv-mittelrhein.de/mediathek/news/36201/Ministerin_Pflichtfach_Informatik_sorgt_fuer_Schub_bei_MINT.html",
+    "text_sha256": "1e3085452d03e2c4581fbaa69dcf30ab24d4d8951fffecab9be2fbe2041d8c6f",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Die Meldung behandelt die Einführung des Fachs und die MINT-Strategie in Rheinland-Pfalz. Andere Bundesländer bilden keinen Schwerpunkt.",
+    "evidence": "Informatik wird ab dem Schuljahr 2028/2029 Pflichtfach in Rheinland-Pfalz.",
+    "summary": "Rheinland-Pfalz verbindet die schrittweise Einführung des Pflichtfachs ab Klasse 7 mit seiner MINT-Strategie. Der Bericht beschreibt die Erwartungen an den Unterricht, laufende Pilotangebote und die Förderung von Mädchen und jungen Frauen.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "bd74f484b2d9862e00dcff67b23522f71c455053b6651785204d671afc23a95c",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793714808,
+    "source_url": "https://www.news4teachers.de/2023/08/vorreiter-saarland-informatik-wird-pflichtfach-bereits-ab-klasse-7-trotz-lehrermangels/",
+    "text_sha256": "dd2e78b46de97efc922ec704190b45ed43bd088bd4529c009cf378da28e576e0",
+    "regions": [
+      "SL"
+    ],
+    "reason": "Der vollständige Bericht behandelt die Einführung an saarländischen Schulen sowie Qualifizierung und Gewinnung von Lehrkräften im Saarland.",
+    "evidence": "Für die Siebtklässler im Saarland steht ab Montag ein neues Fach auf dem Stundenplan",
+    "summary": "Im Saarland wird Informatik ab Klasse 7 an Gymnasien und Gemeinschaftsschulen verpflichtend. Der Bericht erläutert vorbereitende Lehrkräftequalifizierungen und weitere bildungspolitische Maßnahmen zum Schuljahresbeginn.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "0b2df4575866c6cea105d626c42dff1f7d19cc009d12361beface2bc46b2285c",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793714808,
+    "source_url": "https://www.stifterverband.org/pressemitteilungen/2024_10_16_informatik-monitor",
+    "text_sha256": "6ad8bc20da02f1412d22b5653f6a023a11ce9689d4de8b5eed68b6376e1ed034",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Die Veröffentlichung zieht ein bundesweites Fazit zum Informatikunterricht. Nordrhein-Westfalen und Saarland werden lediglich als Beispiele für erfolgreiche Weiterbildung genannt; München ist eine Stiftungsadresse.",
+    "evidence": "wie es um den Informatikunterricht in Deutschland steht",
+    "summary": "Der Informatik-Monitor 2024/25 beschreibt eine zunehmende Verbreitung des Pflichtfachs bei häufig geringem Stundenumfang. Die Veröffentlichung fordert mehr Raum im Stundenplan und zeigt Weiterqualifizierung als wichtigen Weg gegen den Lehrkräftemangel.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "e29c6c54522bb5a795b09c786144c6e1159a6d8bc3fed64f587210f425a37410",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793715196,
+    "source_url": "https://www.news4teachers.de/2025/12/mint-stereotype-lehrkraefte-schreiben-maedchen-in-technik-und-informatik-geringere-kompetenzen-zu/",
+    "text_sha256": "f80b255109e231bd72c5abb396d703fd91a9ae3a7754411e20892aaec3d65793",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Gegenstand sind bundesweit bedeutsame Studien und Empfehlungen zu geschlechtsspezifischen Erwartungen. Baden-Württemberg ist lediglich die Herkunft einer Teilstichprobe; Frankfurt ist der Forschungsstandort.",
+    "evidence": "aus der gesamten Bundesrepublik",
+    "summary": "Zwei Studien zeigen, dass Lehrkräfte und Lehramtsstudierende Mädchen besonders in Technik und Informatik geringere Fähigkeiten zuschreiben. Die Forschenden empfehlen, solche Erwartungen in Ausbildung, Fortbildung und Unterrichtsmaterialien gezielt aufzugreifen.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "abbb5a800b079a2f9584c4bad2f1e49af770cc96de11a513aac8a8910b6b84ac",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793715196,
+    "source_url": "https://www.news4teachers.de/2024/06/wird-informatik-pflichtfach-in-der-schule-bildungsministerin-laessts-pruefen/",
+    "text_sha256": "18f2c6773eab02ecbf7a286d95e942fe5bf79b3f07a65369e3b987454855fe6b",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Der gesamte Bericht betrifft die Prüfung eines Pflichtfachs, MINT-Förderung und Kurszahlen in Rheinland-Pfalz. Ein bundesweiter Rang ist nur Kontext.",
+    "evidence": "ein verpflichtendes Fach Informatik an den Schulen in Rheinland-Pfalz",
+    "summary": "Das Bildungsministerium Rheinland-Pfalz prüft die Voraussetzungen für ein verpflichtendes Informatikfach. Die Meldung ordnet die Überlegungen in die MINT-Förderung des Landes ein und nennt Entwicklungen bei Informatikkursen.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "e9e6f5f6e53ba22546a0941cbd42b3c15a0739373560354308e1d4a97d4e3620",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793715196,
+    "source_url": "https://www.news4teachers.de/2025/12/materialien-von-lehrkraeften-fuer-lehrkraefte-informatik-kreativ-und-praxisnah-vermitteln/",
+    "text_sha256": "4ef8dd48c2e73c57e6ccc6cfd150e1883348c7ceada7ce7c4ac6d87361605838",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Vorgestellt werden bundesweit nutzbare Materialien einer gemeinnützigen Bildungsinitiative; kein einzelnes Bundesland steht im Mittelpunkt. Der Beitrag ist als Anbieterbeitrag einzuordnen.",
+    "evidence": "Allzu oft fristet die Informatik im deutschen Bildungswesen noch ein Inseldasein.",
+    "summary": "Science on Stage stellt frei verfügbare Materialien zu Programmierung, KI und Nachhaltigkeit vor. Der Anbieterbeitrag beschreibt Unterrichtsbeispiele, Fortbildungen und Beteiligungsmöglichkeiten für Lehrkräfte unterschiedlicher Schulformen.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "0f009ed81632bf3187ecfe6d7855d0ccd34046e2dbc88cb2dd5cdcc455b00a8f",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793715196,
+    "source_url": "https://www.news4teachers.de/2024/08/schule-lass-mal-reden-news4teachers-podcast-von-kati-ahl-zu-besuch-in-einer-papierlosen-schule/",
+    "text_sha256": "a596edc21cee948f030efce209e9a49d98bb6be88e8efcd213409145a15762f1",
+    "regions": [
+      "UNK"
+    ],
+    "reason": "Der vollständige Bericht handelt von Schulbesuchen und einem Fach in Dänemark. Deutschland wird verglichen, ein Schweizer Experte zitiert und Frankfurt als Ortszeile genannt. Keines davon ist ein regionaler Schwerpunkt innerhalb des Sammelgebiets.",
+    "evidence": "Ihre erste Reise führt sie nach Dänemark",
+    "summary": "Ein Podcastbeitrag stellt digitale Lernorte und ein Schulfach in Dänemark vor. Er liegt außerhalb des regionalen Sammelgebiets Deutschland, Österreich und Schweiz.",
+    "relevant": false,
+    "complete_article": true
+  },
+  {
+    "id": "a09f4ea046564cb6428f1cf4eb493c519b05d4de25df6bdb985599cf11bea12e",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793715196,
+    "source_url": "https://www.news4teachers.de/2024/01/pflichtfach-informatik-kommt-es-war-hoechste-zeit/",
+    "text_sha256": "f4a927cdc9029d099900acbf8e95d89dc6d2923cf530b55e60e0b58de8c41d49",
+    "regions": [
+      "HB"
+    ],
+    "reason": "Anlass, Einführungstermine und Schlussfrage betreffen Bremens Pflichtfach. Die längere NRW-Passage zu Ausbildungs- und Studienabschlüssen begründet dessen Nutzen, berichtet aber nicht gleichwertig über ein Pflichtfach in NRW. Sachsen und MV sind nur Vergleichsdaten.",
+    "evidence": "Informatik soll Pflichtfach in Bremen werden",
+    "summary": "Bremen kündigt die Einführung eines verpflichtenden Informatikfachs an. Der Bericht erläutert den damaligen Zeitplan, mögliche Vorteile für die Chancengleichheit und die offene Frage nach ausreichend qualifizierten Lehrkräften.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "dd843a19ffe4281893f3108aa3e3203cae5be9d4f79d6b841473ce9b75621f3b",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793715196,
+    "source_url": "https://www.news4teachers.de/2025/03/zusaetzliche-lehrkraefte-fuer-das-pflichtfach-informatik-gibt-es-erst-einmal-nicht/",
+    "text_sha256": "5114f6ce3e55c52ff9818745c2dd675c55808de72d64a06d59b9e3cc9780289b",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Behandelt werden ausschließlich der Personalbedarf und die Einführung des Pflichtfachs in Rheinland-Pfalz.",
+    "evidence": "in Rheinland-Pfalz werden etliche zusätzliche Lehrkräfte benötigt",
+    "summary": "Rheinland-Pfalz plant zunächst keine zusätzlichen Stellen für Schulen, die Informatik vorzeitig einführen. Benötigte Stunden sollen anfangs aus anderen Fächern kommen; später wird zusätzlicher Personalbedarf erwartet.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "61a51ed1f2e0d75ee90c6c5f423026e56d607997321f57ffef878f30ecd98946",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793715196,
+    "source_url": "https://www.news4teachers.de/2024/08/schulfach-informatik-ja-aber-richtig-ohne-medienbildung-meinen-lehrkraefte-verbaende/",
+    "text_sha256": "9e62e3e99299635894d75a3b381c4ad962b35a528398b168e2f5f4bcea98435b",
+    "regions": [
+      "BW"
+    ],
+    "reason": "Die Verbandsforderungen beziehen sich ausdrücklich auf die G9-Reform und das geplante Fach in Baden-Württemberg.",
+    "evidence": "Informatik in Baden-Württemberg künftig durchgehend unterrichtet werden soll",
+    "summary": "Lehrkräfteverbände in Baden-Württemberg begrüßen den Ausbau der Informatik, kritisieren aber die Verbindung mit Medienbildung. Sie fordern ein eigenständiges Fach ab Klasse 5 und entsprechend qualifizierte Fachlehrkräfte.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "33a81b6d960a9a32192a6c659ccf94a1a4b8ee59b717f1332cfa2b7f428e298e",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793715196,
+    "source_url": "https://www.news4teachers.de/2025/08/mangelfach-auf-eine-informatik-lehrkraft-kommen-immer-noch-250-schueler/",
+    "text_sha256": "4f9dd71d5e6e60b19ccbefd71a91f1737e16754a503786af192b065f5321ca8e",
+    "regions": [
+      "RP"
+    ],
+    "reason": "Der Text wertet die Lehrkräftestatistik Rheinland-Pfalz aus und stellt sie der geplanten Facheinführung gegenüber. Bad Ems ist der Standort des zuständigen Landesamtes.",
+    "evidence": "Informatik soll in Rheinland-Pfalz zum Pflichtfach werden.",
+    "summary": "In Rheinland-Pfalz wächst die Zahl der Informatiklehrkräfte, bleibt aber gering. Der Bericht stellt Daten zum Lehrkräftenachwuchs und zur Unterrichtsbefähigung im Zusammenhang mit der geplanten Einführung des Pflichtfachs vor.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "0543d5ba420a83af50fa1d7325e1f27ecb2f2e0a6123326ddd82e4443932cb69",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793715196,
+    "source_url": "https://www.news4teachers.de/2026/05/nicht-gewaehrleistet-dass-kinder-gut-auf-die-digitale-welt-vorbereitet-werden/",
+    "text_sha256": "2caa11937effaa0ca0d1d2c4df611b120f4d9ab684bdcd441611208d9aeabd02",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Es handelt sich um bundespolitische Verbandsforderungen zu Medienbildung, Lehrkräfteausbildung und Informatikunterricht. Berlin ist die Ortszeile und nicht der Gegenstand einer Landesmeldung.",
+    "evidence": "In Deutschland ist derzeit nicht gewährleistet",
+    "summary": "Der Deutsche Philologenverband fordert bessere Voraussetzungen für Medienbildung und anspruchsvollen Informatikunterricht. Anlass ist eine Bestandsaufnahme zum digitalen Kinder- und Jugendschutz, die Lücken bei Kompetenzen und Unterstützung aufzeigt.",
+    "relevant": true,
+    "complete_article": true
+  },
+  {
+    "id": "dd6a9845ae94d3ade228c710d0c17d2045357c600b3aeb94f2b9b8c32181750b",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793715196,
+    "source_url": "https://www.news4teachers.de/2026/10/von-einstieg-bis-spitzenfoerderung-informatik-entdecken-mit-bwinf/",
+    "text_sha256": "43ce616447b667a3f5d6efdc391d3fbeb5a0e4f2e79339befb68aa92df3a34f3",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Der Text ist ausdrücklich ein Advertorial für Wettbewerbsangebote; er berichtet nicht über Einführung oder Umsetzung des schulischen Pflichtfachs.",
+    "evidence": "Dies ist eine Pressemeldung / ein Advertorial",
+    "summary": "Der Anbietertext stellt Wettbewerbe und Förderangebote vor. Er wird nicht als Nachricht zur Einführung oder Umsetzung des Pflichtfachs ausgespielt.",
+    "relevant": false,
+    "complete_article": true
+  },
+  {
+    "id": "abe85b733fe189d1f4bc149ce37a28720608cf9ead24c178c9bd3eed4b74b221",
+    "status": "verified",
+    "method": "fulltext_review",
+    "checked_at": 1793715196,
+    "source_url": "https://www.news4teachers.de/2024/10/schueler-lernen-zu-wenig-informatik-forderung-regulaere-lehrkraefte-sollen-uebernehmen/",
+    "text_sha256": "0fa96a419c0c78587dcd707636e1dc3988eee6bcd52737e8fc1e508d953b3879",
+    "regions": [
+      "DE"
+    ],
+    "reason": "Die leitende Fragestellung betrifft den deutschlandweiten Informatikunterricht und Lehrkräftemangel. Sachsen-Anhalt wird als ausführliches Umsetzungsbeispiel, NRW als Weiterbildungsbeispiel eingebettet; die Meldung zieht ein nationales Fazit.",
+    "evidence": "Nur sechs Prozent der Schülerinnen und Schüler in Deutschland",
+    "summary": "Der Informatik-Monitor 2024/25 beschreibt zu wenig verpflichtenden Unterricht trotz wachsender Verbreitung des Fachs. Der Beitrag erläutert Länderbeispiele und diskutiert Weiterbildung als Ansatz, um mehr qualifizierte Lehrkräfte zu gewinnen.",
+    "relevant": true,
+    "complete_article": true
+  }
+]
