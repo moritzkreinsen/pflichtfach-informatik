@@ -1,0 +1,28 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+(async () => {
+  const root = path.join(__dirname, '..');
+  for (const name of ['app.js','static-data.js']) new vm.Script(fs.readFileSync(path.join(root,'public/assets',name),'utf8'));
+  const rows = Array.from({length: 25}, (_,i) => ({id:String(i),title:'Pflichtfach Informatik',summary:i===0?'Besonderes Saarland':'Kurztext',source:'Verlag',published:1700000000,regions:['NW']}));
+  const ctx = {window:{}, URL, URLSearchParams, console, fetch:async()=>({ok:true,json:async()=>({articles:rows,regions:{NW:'Nordrhein-Westfalen',HE:'Hessen'},feeds:['all']})})};
+  vm.createContext(ctx);
+  vm.runInContext(fs.readFileSync(path.join(root,'public/assets/static-data.js'),'utf8'),ctx);
+  const app = ctx.window.staticNews;
+  let q = new URLSearchParams({regions:'',q:'',days:'0',page:'999'});
+  let data = await app.query(q);assert.equal(data.page,2);assert.equal(data.articles.length,5);assert.equal(data.total,25);
+  q.set('q','SAARLAND');data = await app.query(q);assert.equal(data.total,1);assert.equal(data.page,1);
+  q.set('q','');q.set('regions','HE');data = await app.query(q);assert.equal(data.total,0);
+  const article = {id:'a'.repeat(64),regions:['NW']};
+  assert.throws(()=>app.proposal(article,['NW']));
+  assert.throws(()=>app.proposal(article,['DE','HE']));
+  const proposal = app.proposal(article,['HE']);
+  const url = new URL(app.issueURL('owner/repo',proposal));
+  assert.equal(url.origin,'https://github.com');assert.equal(url.pathname,'/owner/repo/issues/new');
+  assert.equal(url.searchParams.get('template'),'category-correction.md');
+  const encoded = JSON.parse(url.searchParams.get('body').slice(8,-4));
+  assert.equal(encoded.article_id,article.id);assert.deepEqual(encoded.regions,['HE']);assert.deepEqual(encoded.previous_regions,['NW']);
+  assert.throws(()=>app.issueURL('https://evil.example',proposal));
+  console.log('OK: JavaScript-Syntax, Filter, Seitengrenzen und vorausgefüllte Issue-URL');
+})().catch(e=>{console.error(e);process.exitCode=1});

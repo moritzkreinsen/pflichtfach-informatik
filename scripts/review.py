@@ -52,11 +52,13 @@ def review_article(article,cache,model=call_model):
 def run(db_path,limit):
     db=sqlite3.connect(db_path);db.row_factory=sqlite3.Row
     rows=[dict(r) for r in db.execute('SELECT * FROM articles ORDER BY published DESC')]
+    overrides_path=ROOT/'data/category-overrides.json'
+    overrides=json.loads(overrides_path.read_text()) if overrides_path.exists() else {}
     count=0;errors=0;deadline=time.monotonic()+7200
     for a in rows:
         if time.monotonic()>=deadline:break
         old=json.loads(a['review'] or '{}')
-        if a['manual'] or old.get('status') in ('verified','region_verified','outside_region_schema'):continue
+        if a['id'] in overrides or a['manual'] or old.get('status') in ('verified','region_verified','outside_region_schema'):continue
         path=ROOT/'data/cache'/(a['id']+'.json')
         if not path.exists():continue
         cache=json.loads(path.read_text())
@@ -73,6 +75,7 @@ def run(db_path,limit):
             db.commit();print(f'{count}: {result["status"]} {a["title"]}',flush=True)
         except Exception as exc:
             errors+=1;print(f'{count}: Modellprüfung fehlgeschlagen: {a["id"]}: {exc}',flush=True)
+    db.close()
     return {'attempted':count,'errors':errors}
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--db',default=str(ROOT/'var/news.sqlite'));p.add_argument('--limit',type=int,default=40);args=p.parse_args()
