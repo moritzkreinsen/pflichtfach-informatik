@@ -1,0 +1,5 @@
+{
+  "base_url": "https://moritzkreinsen.github.io/pflichtfach-informatik",
+  "repository": "moritzkreinsen/pflichtfach-informatik",
+  "extra_feeds": [["DE", "HE", "NW"]]
+}
