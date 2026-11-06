@@ -1,51 +1,49 @@
 # Betriebsnotizen für dieses Repository
 
-Diese Hinweise dokumentieren den vorbereiteten Betriebsablauf dieses Projekts. Für eigene Installationen sind weder GitHub Actions noch dieser Zeitplan erforderlich. Die Datei ist technische Dokumentation im Repository, kein geschützter Speicher für Zugangsdaten.
+Diese Datei beschreibt die vorbereitete GitHub-Konfiguration. Die Webseite selbst kann auf jedem statischen Webserver betrieben werden. Hier dürfen keine Zugangsdaten eingetragen werden.
 
-## Hosting: Webseite und Sammellauf sind getrennt
+## Stand und Aktivierung
 
-Die **Webseite läuft auf einem PHP-Webserver** und speichert Änderungen unmittelbar in einer gemeinsamen SQLite-Datenbank. GitHub Pages allein kann das nicht: Dort lassen sich Dateien ausliefern, aber keine serverseitigen Schreibzugriffe ausführen. Eine heruntergeladene SQLite-Datei wäre nur eine lokale Kopie im Browser.
+Das Repository bleibt bis zur ausdrücklichen Freigabe privat. Die neuen Abläufe sind mit Repository-Variablen abgeschaltet, solange deren Wert nicht genau `true` lautet. Es werden keine Pages-Einstellungen, Sichtbarkeit oder Berechtigungen durch den Quellcode geändert.
 
-**GitHub verwaltet den Quellcode und kann den wöchentlichen Sammellauf ausführen.** Der vorbereitete Workflow startet montags um 04:17 UTC (05:17 MEZ / 06:17 MESZ). GitHub-Schedules sind nicht minutengenau garantiert und laufen nur vom Standardbranch; bei längerer Inaktivität öffentlicher Repositories können sie deaktiviert werden.
+Nach Prüfung und Merge des Feature-PRs:
 
-Ablauf in `.github/workflows/weekly-news.yml`:
+1. Repository erst nach Freigabe öffentlich machen, damit Besucher Issues einreichen können. Die geplante Pages-Adresse lautet `https://moritzkreinsen.github.io/pflichtfach-informatik/`.
+2. Unter Settings → Actions → General die vorgesehenen Actions erlauben und „Allow GitHub Actions to create and approve pull requests“ einschalten. Die Workflows erstellen PRs, genehmigen oder mergen sie aber nicht. Default-Token-Rechte können read-only bleiben; Schreibrechte sind auf die jeweiligen Jobs begrenzt.
+3. Unter Settings → Pages als Buildquelle „GitHub Actions“ wählen; die Umgebung `github-pages` nur für `main` freigeben.
+4. Unter Settings → Secrets and variables → Actions → Variables `ENABLE_PAGES`, `ENABLE_CORRECTIONS` und `ENABLE_NEWS` auf `true` setzen. Die Flags können unabhängig aktiviert werden. Es sind keine Datenbank-, SSH- oder persönlichen GitHub-Tokens als Secrets nötig.
+5. Den Pages-Workflow manuell starten. Danach veröffentlicht jeder Push/Merge auf `main` die frisch erzeugte Ausgabe. Die üblichen PR-Prüfungen benötigen diese Flags nicht.
+6. Den Korrekturweg einmal mit einem echten Artikel testen: Vorschlag absenden, PR prüfen, mergen, aktualisierte Webseite und RSS prüfen. Anschließend den Wochenlauf manuell erproben. Diese End-to-End-Läufe sind vor der Aktivierung noch nicht durchgeführt.
+7. „Automatically delete head branches“ im Repository einschalten. Falls die Einstellung mit dem vorhandenen Projektzugang nicht bearbeitbar ist, gemergte Branches manuell entfernen. Lokal `git fetch --prune origin`, `main` per Fast-forward aktualisieren und ausschließlich gemergte Arbeitsbranches löschen.
 
-1. Artikelmetadaten per SSH vom Webserver lesen; keine Besucherhistorie, Sitzungsschlüssel oder IP-Hashes exportieren.
-2. Google News mit `"Pflichtfach Informatik"` in Anführungszeichen abfragen, ergänzt um dieselbe exakte Suche je Bundesland und auf ausgewählten Domains. Direkte RSS-/Atom-Feeds und Artikelschnittstellen müssen die Wortfolge im Titel, Anreißer oder gelieferten Volltext enthalten.
-3. Öffentlich zugängliche Artikeltexte laden. Paywalls, Zugriffssperren und Robots-Regeln werden nicht umgangen.
-4. Auf dem **temporären GitHub-Runner** ein offenes Modell starten (`qwen3:4b` über Ollama), ohne Modell-API-Token. Das Modell läuft weder im Browser noch auf dem Rechner eines Besuchers. Der Modelldownload umfasst etwa 2,5 GB; CPU-Auswertung und Runner-Minuten sind einzuplanen. Es ist kein kostenfreier gehosteter KI-Dienst garantiert.
-5. Neue Volltexte in zwei Durchgängen prüfen: Länder im Fokus, bloße Vergleichsländer, bundesweite Diskussion, Vollständigkeit des Texts, belegter Kurzüberblick. Die KI entscheidet nicht darüber, ob ein passender Suchtreffer thematisch erwünscht ist. Ungültige oder widersprüchliche Ergebnisse bleiben vorläufig.
-6. Ergebnisse per SSH in die Live-Datenbank **zusammenführen**, nicht die Datenbankdatei ersetzen. Zwischenzeitliche öffentliche Korrekturen haben Vorrang. RSS-Dateien aktualisieren.
+## Tokens
 
-Standardmäßig werden höchstens 40 neue Volltexte pro Lauf geprüft; nach zwei Stunden werden keine weiteren Modellprüfungen begonnen, um Rechenzeit zu begrenzen. Für eine größere Erstprüfung lässt sich der Workflow manuell mit höherem `review_limit` starten. Bereits bestätigte Bewertungen und öffentliche Korrekturen werden übersprungen; ein offener Restbestand benötigt weitere Läufe. Ein kleineres offenes Modell kann Fehlentscheidungen treffen; der Prüfstatus ist keine redaktionelle Garantie.
+GitHub stellt jedem Actions-Job automatisch einen kurzlebigen `GITHUB_TOKEN` bereit. Er wird hier für Daten-PRs und Pages verwendet und erscheint nicht in der Website. Der persönliche Token im lokalen Schlüsselbund dient nur der Entwicklungsarbeit und wird nicht in Actions übernommen.
 
-Die Laufzeit-Datenbank bleibt auf dem Webserver. Der Workflow erzeugt **keine Repository-Commits**, veröffentlicht keine Volltexte und benötigt keinen OpenAI- oder anderen Modell-API-Schlüssel. Er benötigt allerdings SSH-Zugangsdaten zu dem Webserver. Das Quellcode-Repository ist `moritzkreinsen/pflichtfach-informatik`. Ein Zielserver samt SSH-Secrets ist noch nicht eingerichtet; der Sammellauf ist daher noch nicht betriebsbereit.
+Mit `GITHUB_TOKEN` erzeugte PRs können nach GitHubs Regeln eine zusätzliche Freigabe für ihre PR-Workflows benötigen. Deshalb laufen Datenvalidierung, Python-Tests und statischer Build bereits vor der PR-Erstellung im auslösenden Workflow. Die Durchsicht und der Merge bleiben manuell. Referenz: [GitHub-Token](https://docs.github.com/en/actions/concepts/security/github_token).
 
-## GitHub Actions einrichten
+## Korrekturen
 
-Quellcode in ein GitHub-Repository übernehmen. In dessen Actions-Secrets hinterlegen:
+Die Website erzeugt eine Issue-URL mit JSON: Version, Artikel-ID, bisherigen und gewünschten Regionen. Die Person meldet sich auf GitHub an und bestätigt „Issue erstellen“. GitHub-Anmeldung wird nicht eingebettet.
 
-| Secret | Inhalt |
-| --- | --- |
-| `NEWS_SSH_HOST` | SSH-Ziel, z. B. `newsjob@example.org` |
-| `NEWS_REMOTE_PATH` | Absoluter Projektpfad auf dem Webserver |
-| `NEWS_SSH_KEY` | Separater privater SSH-Schlüssel des Sammeljobs |
-| `NEWS_KNOWN_HOSTS` | Vorher unabhängig geprüfter SSH-Hostschlüssel des Servers im known_hosts-Format |
+Der Workflow `category-proposal.yml` reagiert auf neu eröffnete Issues und führt ausschließlich Code aus `main` aus. Issue-Inhalte werden als begrenzte JSON-Daten gelesen, niemals als Shellcode, Dateiname oder Workflow-Anweisung verwendet. Unbekannte Artikel, ungültige Länder, doppelte Felder, unveränderte Vorschläge und veraltete Ausgangsstände erzeugen keinen PR. Änderungen an einem bestehenden Issue lösen keine nachträgliche Änderung eines bereits geprüften PRs aus; nötigenfalls einen neuen Vorschlag eröffnen.
 
-Der Serverbenutzer braucht PHP-CLI und Zugriffsrechte auf die Projekt-Datenbank sowie die RSS-Ausgabe. Der SSH-Schlüssel sollte nur den nötigen Projektzugriff erhalten. Der Hostschlüssel wird strikt geprüft; der Workflow übernimmt keine ungeprüften Schlüssel aus dem Netzwerk. GitHub kann Runner-Nutzung je nach Repository und Tarif berechnen.
+Ein gültiger Vorschlag ändert ausschließlich `data/category-overrides.json` auf `data/correction-<Issue-Nummer>`. Der PR verweist mit `Closes #...` auf das Issue; der Merge schließt es. Sammellauf und Modell dürfen diese manuell bestätigten Zuordnungen nicht überschreiben.
 
-Danach den Workflow „Wöchentliche Nachrichtensammlung“ einmal manuell starten. Er ist auch über Cron ohne GitHub ausführbar: erst `php bin/collect.php`, dann Python-Volltextabruf und Modellprüfung mit `OLLAMA_URL` zu einem eigenen Modellserver, anschließend RSS-Export. Die Wahl des Modells wird über `NEWS_MODEL` gesteuert. Ein Modell wird nur auf explizit konfiguriertem Endpoint angesprochen.
+## Wöchentlicher Nachrichtenlauf
 
-## Bereinigung des früheren Suchumfangs
+`weekly-news.yml` ist für Montag 04:17 UTC vorbereitet (05:17 MEZ / 06:17 MESZ). Der Runner importiert `data/articles.json` in eine temporäre SQLite-Datenbank, sammelt exakte Suchtreffer, löst Quellenlinks auf und lädt zugängliche Volltexte. Ein offenes Modell läuft ausschließlich auf dem temporären Runner. Standardmäßig werden maximal 40 Volltexte geprüft; nach zwei Stunden beginnt keine weitere Modellprüfung. Kein Modell wird auf dem lokalen Rechner installiert.
 
-Nach einem Abruf mit der exakten Suchlogik kann `php bin/prune-search.php` Altbestände entfernen, für die weder ein exakter Suchtreffer noch die Wortfolge im verfügbaren Quelltext vorliegt. Modellgenerierte Zusammenfassungen zählen dabei nicht als Beleg. Die entfernten Datensätze werden unter `var/backups/` protokolliert; vorher ein konsistentes SQLite-Backup anlegen. Ein nicht zugänglicher Volltext bedeutet nicht, dass die Wortfolge sicher fehlt. Solche Altbestände werden ohne Nachweis entfernt und können bei einem späteren exakten Suchtreffer wieder aufgenommen werden.
+Der Export verwendet eine feste Feldliste. Besucherhistorie, Sitzungsschlüssel, IP-Daten und Volltexte gelangen weder in den Daten-PR noch ins Pages-Artefakt. Der neue Nachrichtenbestand wird als PR auf `data/news-<Lauf-ID>` vorgeschlagen. **Er erscheint erst nach manueller Prüfung und Merge**, entsprechend der Projektregel für `main`. Der Modelllauf kann Kosten für Runner-Minuten verursachen und ist keine redaktionelle Garantie. GitHub-Zeitpläne sind nicht minutengenau garantiert.
 
-## Direkte Beitragslinks
+Ein fehlgeschlagener Modell- oder Exportlauf ersetzt den veröffentlichten Datenbestand nicht. Einzelne nicht erreichbare Nachrichtenquellen können übersprungen werden. Noch offene Daten-PRs vor dem nächsten Lauf prüfen; es werden keine Konflikte automatisch aufgelöst und keine Branches mit Force-Push überschrieben.
 
-`python scripts/resolve_links.py --db var/news.sqlite` löst gespeicherte Google-News-Verweise auf und schreibt die Originaladresse direkt in SQLite. Der Volltextlauf führt diesen Schritt automatisch vor der Textextraktion aus, unabhängig von der Modellprüfung. Optionale Google-Cookies werden für die kurzlebige Serversitzung abgelehnt, damit die europäische Einwilligungsseite die Auflösung nicht unterbricht. Gespeicherte direkte Links bleiben bei späteren Abrufen erhalten; öffentliche Kategorieänderungen werden nicht berührt. Nicht auflösbare Links bleiben funktionsfähig als Google-News-Verweise bestehen und werden beim nächsten Lauf erneut versucht. Nach einem eigenständigen Auflösungslauf `php bin/export-rss.php` ausführen.
+## Daten und Ausgabe
 
-Die regionale Nachprüfung vom 4. November 2026 ist in `data/regional-review.json` dokumentiert. Sie unterscheidet verfügbaren Quelltext, Verlagsauszüge und Titel-/Quellenkontext; sie behauptet keine vollständige Volltextprüfung gesperrter Beiträge. Die Zuordnungen werden beim Sammeln wiederhergestellt und von der automatischen Modellprüfung bewahrt. Öffentliche Korrekturen und neuere Prüfungen haben Vorrang. Ein Beitrag zu Japan bleibt mangels passender Region im bestehenden Schema ungeklärt.
+`data/articles.json` wurde einmalig aus dem vorhandenen lokalen Bestand mit `python3 scripts/news_data.py export` erzeugt. Das ist ein Metadatenexport, keine versionierte SQLite-Datei. Die lokale PHP-Datenbank wird durch den statischen Build nicht verändert.
 
-## Entwicklung
+`data/initial-review.json` und `data/regional-review.json` dokumentieren frühere Zuordnungsprüfungen. Nicht alle Quellen waren vollständig zugänglich; die Daten behaupten keine abgeschlossene Volltextprüfung des gesamten Bestands. `data/source-links.json` ergänzt verifizierte Originaladressen.
 
-Änderungen werden über eigene Branches und Pull Requests eingebracht. Vor Konfliktauflösungen und einem Merge in `main` erfolgt die Durchsicht und Freigabe im Chat. Der Workflow „Prüfungen“ kontrolliert Pull Requests ohne Zugangsdaten oder Modellinstallation. Siehe [`AGENTS.md`](../AGENTS.md) für den vereinbarten Ablauf.
+Der Build übernimmt nur HTML, drei bekannte Assetdateien, den sichtbaren JSON-Bestand und die erzeugten RSS-Dateien. Nur `dist/` veröffentlichen. Zusätzliche RSS-Kombinationen in `site.json` eintragen und neu bauen; beliebige Laufzeitkombinationen benötigen einen dynamischen Server. In der statischen Variante sind alle Einzelregionen und Paare ohne zusätzliche Konfiguration verfügbar.
+
+Die optionale PHP-Installation ist separat in [php-hosting.md](php-hosting.md) beschrieben. SSH-Synchronisation und direkte öffentliche SQLite-Änderungen gehören zu dieser alten Betriebsart und sind für Pages nicht erforderlich.

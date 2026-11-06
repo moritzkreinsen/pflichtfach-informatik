@@ -5,7 +5,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from resolve_links import save_target,valid_target
 class LinkTests(unittest.TestCase):
     def test_only_link_changes(self):
-        db=sqlite3.connect(':memory:');db.execute('CREATE TABLE articles(id TEXT,url TEXT,manual INT,regions TEXT)')
+        db=sqlite3.connect(':memory:');self.addCleanup(db.close);db.execute('CREATE TABLE articles(id TEXT,url TEXT,manual INT,regions TEXT)')
         db.execute("INSERT INTO articles VALUES('1','https://news.google.com/rss/articles/example',1,'HE')")
         a={'id':'1','url':'https://news.google.com/rss/articles/example'}
         self.assertTrue(save_target(db,a,'https://publisher.example/article',lambda _:True))

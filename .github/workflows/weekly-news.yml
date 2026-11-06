@@ -1,11 +1,11 @@
 name: Wöchentliche Nachrichtensammlung
 on:
   schedule:
-    - cron: '17 4 * * 1' # Montag 04:17 UTC = 05:17 MEZ / 06:17 MESZ
+    - cron: '17 4 * * 1' # Montag 05:17 MEZ / 06:17 MESZ
   workflow_dispatch:
     inputs:
       review_limit:
-        description: Maximale Anzahl neu zu prüfender Volltexte
+        description: Maximale Anzahl zu prüfender Volltexte
         default: '40'
         type: string
 permissions:
@@ -15,22 +15,21 @@ concurrency:
   cancel-in-progress: false
 jobs:
   update:
+    if: vars.ENABLE_NEWS == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    permissions:
+      contents: write
+      pull-requests: write
     env:
-      NEWS_DB: ${{ github.workspace }}/var/news.sqlite
-      NEWS_SSH_HOST: ${{ secrets.NEWS_SSH_HOST }}
-      NEWS_REMOTE_PATH: ${{ secrets.NEWS_REMOTE_PATH }}
-      NEWS_SSH_KEY: ${{ secrets.NEWS_SSH_KEY }}
-      NEWS_KNOWN_HOSTS: ${{ secrets.NEWS_KNOWN_HOSTS }}
+      NEWS_DB: ${{ github.workspace }}/var/collection.sqlite
       OLLAMA_URL: http://127.0.0.1:11434
       OLLAMA_MODELS: ${{ github.workspace }}/.models
       NEWS_MODEL: qwen3:4b
     steps:
       - uses: actions/checkout@v4
-      - name: Konfiguration prüfen
-        run: |
-          test -n "$NEWS_SSH_HOST" && test -n "$NEWS_REMOTE_PATH" && test -n "$NEWS_SSH_KEY" && test -n "$NEWS_KNOWN_HOSTS" || { echo 'Webserver-Zugang fehlt. Siehe README.'; exit 1; }
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -45,8 +44,8 @@ jobs:
         run: |
           php tests/run.php
           python -m unittest discover -s tests -p 'test_*.py'
-      - name: Artikelbestand vom Webserver lesen
-        run: python scripts/sync.py fetch
+      - name: Versionierten Nachrichtenbestand laden
+        run: php bin/import.php < data/articles.json
       - name: Quellen einsammeln
         id: collect
         continue-on-error: true
@@ -68,12 +67,17 @@ jobs:
         env:
           REVIEW_LIMIT: ${{ inputs.review_limit || '40' }}
         run: python scripts/review.py --db "$NEWS_DB" --limit "$REVIEW_LIMIT"
-      - name: Ergebnisse in Live-Datenbank übernehmen
-        run: python scripts/sync.py push
+      - name: Nachrichtenmetadaten exportieren und prüfen
+        run: |
+          python scripts/news_data.py export --db "$NEWS_DB"
+          python scripts/news_data.py validate
+          python scripts/build_static.py
+      - name: Daten-PR zur Prüfung erstellen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/open_data_pr.py news
       - name: Laufbericht
         if: always()
         run: |
-          echo '## Nachrichtensammlung' >> "$GITHUB_STEP_SUMMARY"
-          echo 'Das Modell lief auf dem GitHub-Runner; die Webseite benötigt weder Modell noch API-Token.' >> "$GITHUB_STEP_SUMMARY"
-          echo 'Nicht zugängliche Volltexte und noch nicht geprüfte Artikel bleiben vorläufig. Öffentliche Kategorieänderungen auf dem Webserver werden beim Import nicht überschrieben.' >> "$GITHUB_STEP_SUMMARY"
-          echo 'Quellenabruf: ${{ steps.collect.outcome }}' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Nachrichtensammlung: ${{ steps.collect.outcome }}' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Nur Metadaten werden vorgeschlagen. Nach manuellem Merge veröffentlicht Pages den neuen Bestand. Modell und Volltextcache verbleiben auf dem Runner.' >> "$GITHUB_STEP_SUMMARY"
