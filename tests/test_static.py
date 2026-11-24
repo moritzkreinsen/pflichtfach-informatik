@@ -108,13 +108,13 @@ class StaticTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp)/'source.sqlite';db = sqlite3.connect(path)
             db.execute('CREATE TABLE articles (' + ','.join(k + (' INTEGER' if k in ('published','collected','manual','excluded') else ' TEXT') for k in FIELDS) + ')')
-            a = fixture()['articles'][0];a['review'] = json.dumps({'status':'verified','text':'PRIVATE FULL TEXT','evidence':'quote'})
+            a = fixture()['articles'][0];a['review'] = json.dumps({'status':'verified','text':'PRIVATE FULL TEXT','evidence':'quote','model':'internal-tool','method':'assistant_fulltext_review'})
             db.execute('INSERT INTO articles VALUES (' + ','.join('?' for _ in FIELDS) + ')', [a[k] for k in FIELDS])
             db.execute('CREATE TABLE meta (key TEXT, value TEXT)')
             db.execute("INSERT INTO meta VALUES ('session_secret','PRIVATE SESSION')")
             db.commit();db.close()
             out = Path(tmp)/'news.json';export_db(path, out)
             self.assertNotIn('PRIVATE', out.read_text())
-            self.assertEqual(json.loads(load_articles(out)['articles'][0]['review']), {'status':'verified'})
+            self.assertEqual(json.loads(load_articles(out)['articles'][0]['review']), {'status':'verified','method':'fulltext_review'})
 
 if __name__ == '__main__': unittest.main()

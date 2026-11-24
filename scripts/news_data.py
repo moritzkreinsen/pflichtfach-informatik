@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REGIONS = json.loads((ROOT / 'app/regions.json').read_text())
 FIELDS = ('id', 'title', 'url', 'source', 'summary', 'published', 'collected',
           'regions', 'reason', 'manual', 'review', 'excluded', 'match_evidence')
-REVIEW_FIELDS = ('status', 'checked_at', 'method', 'model', 'prompt_version', 'text_sha256', 'complete_article')
+REVIEW_FIELDS = ('status', 'checked_at', 'method', 'prompt_version', 'text_sha256', 'complete_article')
 
 def read_json(path):
     return json.loads(Path(path).read_text(encoding='utf-8'))
@@ -75,6 +75,8 @@ def export_db(db_path, output):
     for record in db.execute('SELECT ' + ','.join(FIELDS) + ' FROM articles ORDER BY id'):
         a = dict(record)
         review = json.loads(a['review'])
+        if isinstance(review.get('method'), str):
+            review['method'] = review['method'].removeprefix('assistant_')
         a['review'] = json.dumps({k: review[k] for k in REVIEW_FIELDS if k in review}, ensure_ascii=False)
         rows.append(a)
     last = db.execute("SELECT value FROM meta WHERE key='last_success'").fetchone()
