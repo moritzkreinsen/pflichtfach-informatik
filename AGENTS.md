@@ -13,3 +13,4 @@
 - Nach einem Merge gemergte Arbeitsbranches lokal und auf GitHub löschen. Bei beauftragten Arbeiten mit fetch --prune, Push und Fast-forward synchron halten; ungemergte Arbeit niemals verwerfen.
 - Keine lokalen Sprachmodelle installieren oder starten. Der vorbereitete Wochenjob führt das Modell ausschließlich auf dem GitHub-Runner aus.
 - Prüfungen: `php tests/run.php`, `python3 -m unittest discover -s tests -p 'test_*.py'`, `node tests/test_static_frontend.cjs` und `python3 scripts/build_static.py`.
+- Neutrale Branch-Namen wie `feature/…` oder `fix/…` verwenden; Commit-Nachrichten, PR-Texte und Projektmetadaten enthalten keine Entwicklungsassistenz-Attribution oder zusätzlichen Co-Autoren. Merge-Titel ausdrücklich setzen statt automatisch Branch-Namen zu übernehmen.
