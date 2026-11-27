@@ -11,7 +11,7 @@ ID = 'a' * 64
 def fixture():
     return {'version': 1, 'last_success': '2026-11-04T10:00:00Z', 'articles': [
         {'id': ID, 'title': 'Pflichtfach Informatik <Test>', 'url': 'https://example.org/article',
-         'source': 'Quelle & Verlag', 'summary': 'Ein kurzer Überblick.', 'published': 1700000000,
+         'source': 'Quelle & Verlag', 'summary': 'Ein Originalteaser.', 'summary_source': 'feed', 'published': 1700000000,
          'collected': 1700000001, 'regions': '["NW"]', 'reason': 'Schwerpunkt', 'manual': 0,
          'review': '{}', 'excluded': 0, 'match_evidence': 'source_text'}]}
 

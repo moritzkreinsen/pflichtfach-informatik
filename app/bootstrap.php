@@ -10,7 +10,7 @@ function db(): PDO {
     $db = new PDO('sqlite:'.$config['database'], null, null, [PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]);
     $db->exec('PRAGMA journal_mode=WAL; PRAGMA busy_timeout=5000; CREATE TABLE IF NOT EXISTS articles (id TEXT PRIMARY KEY, title TEXT NOT NULL, url TEXT NOT NULL, source TEXT NOT NULL, summary TEXT NOT NULL, published INTEGER NOT NULL, collected INTEGER NOT NULL, regions TEXT NOT NULL, reason TEXT NOT NULL, manual INTEGER NOT NULL DEFAULT 0); CREATE INDEX IF NOT EXISTS published_idx ON articles(published); CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);');
     $columns=array_column($db->query('PRAGMA table_info(articles)')->fetchAll(PDO::FETCH_ASSOC),'name');
-    foreach (['match_evidence'=>"TEXT NOT NULL DEFAULT ''", 'review'=>"TEXT NOT NULL DEFAULT '{}'", 'excluded'=>'INTEGER NOT NULL DEFAULT 0'] as $name=>$type) {
+    foreach (['summary_source'=>"TEXT NOT NULL DEFAULT ''", 'match_evidence'=>"TEXT NOT NULL DEFAULT ''", 'review'=>"TEXT NOT NULL DEFAULT '{}'", 'excluded'=>'INTEGER NOT NULL DEFAULT 0'] as $name=>$type) {
         if (!in_array($name,$columns,true)) $db->exec("ALTER TABLE articles ADD COLUMN $name $type");
     }
     return $db;
@@ -36,6 +36,7 @@ function articles(array $selected=[], string $q='', int $days=0): array {
     $stmt->execute([$days ? time()-$days*86400 : 0]);
     $out=[];
     foreach ($stmt as $row) {
+        if (!$row['summary_source']) $row['summary']='';
         $row['regions']=json_decode($row['regions'],true);
         if ($selected && !array_intersect($selected,$row['regions'])) continue;
         if ($q!=='' && mb_stripos($row['title'].' '.$row['summary'].' '.$row['source'],$q)===false) continue;
@@ -55,3 +56,17 @@ function set_meta(string $key,string $value): void { $s=db()->prepare('INSERT IN
 function h(string $s): string { return htmlspecialchars($s,ENT_QUOTES|ENT_SUBSTITUTE,'UTF-8'); }
 
 function matches_phrase(string $text): bool { return (bool)preg_match('/\bPflichtfach\s+Informatik\b/iu',plain($text)); }
+
+/** Conservative phrase variants: no match across sentences, fields or unrelated subjects. */
+function matches_topic(string $text): bool {
+    $text=plain($text);
+    if (matches_phrase($text)) return true;
+    foreach (preg_split('/[.!?;\n]+/u',$text) as $sentence) {
+        // Higher education uses Pflichtfach for compulsory degree modules as well.
+        if (preg_match('/\b(?:Studium|Studiengang|Studierende|Hochschule|Universität|Bachelor|Master)\b/iu',$sentence)) continue;
+        if (preg_match('/\bInformatik[\s‑–-]+Pflichtfach\b/iu',$sentence)) return true;
+        if (preg_match('/\b(?:verpflichtend(?:er|en|em|es|e)?|obligatorisch(?:er|en|em|es|e)?|verbindlich(?:er|en|em|es|e)?)\s+Informatikunterricht(?:s)?\b/iu',$sentence)) return true;
+        if (preg_match('/\bInformatik\s+(?:(?:soll|sollte|muss|müsse|wird|werde|werden|ist|bleibt|als|zum|ein|das|künftig|zukünftig|endlich|auch|überall|kein|nicht|verpflichtendes|verbindliches)\s+){1,8}Pflichtfach\b/iu',$sentence)) return true;
+    }
+    return false;
+}

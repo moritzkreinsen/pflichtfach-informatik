@@ -22,23 +22,24 @@ function import_feed(string $xml, bool $exactSearch=false): int {
         $title=plain((string)$item->title); $url=(string)$item->link;
         if (!$rss) foreach ($item->link as $link) if (!isset($link->attributes()['rel']) || (string)$link->attributes()['rel']==='alternate') { $url=(string)$link->attributes()['href']; break; }
         if (!$title || !valid_url($url)) continue;
-        $description=plain((string)($rss ? $item->description : ($item->summary ?: $item->content)));
+        $description=plain((string)($rss ? $item->description : $item->summary));
         $content=plain((string)($rss ? $item->children('http://purl.org/rss/1.0/modules/content/')->encoded : $item->content));
-        $evidence=(matches_phrase($title) || matches_phrase($description) || matches_phrase($content)) ? 'source_text' : ($exactSearch ? 'google_exact_query' : '');
+        $evidence=(matches_phrase($title) || matches_phrase($description) || matches_phrase($content)) ? 'source_text' : ((matches_topic($title) || matches_topic($description) || matches_topic($content)) ? 'source_variant' : ($exactSearch ? 'google_exact_query' : ''));
         if (!$evidence) continue;
         $source=plain((string)($rss ? $item->source : $item->author->name));
         if (!$source) $source=plain((string)($rss ? $feed->channel->title : $feed->title));
         if (!$source) $source=(string)parse_url($url,PHP_URL_HOST);
         if (str_ends_with($title,' - '.$source)) $title=substr($title,0,-strlen(' - '.$source));
-        // Google News descriptions usually repeat the title: never present that as an independent summary.
-        $clean=trim(str_replace([$title,$source], '', $description), ' -–|');
-        $summary=mb_strlen($clean)>45 ? mb_substr($clean,0,320).(mb_strlen($clean)>320?' …':'') : 'Kurzüberblick: '.$title.'. Details und Einordnung im verlinkten Originalbeitrag.';
+        // Search-index snippets are not publisher teasers. Keep source text verbatim.
+        $summary=parse_url($url,PHP_URL_HOST)==='news.google.com' ? '' : $description;
+        if ($summary===$title || mb_strlen($summary)>5000) $summary='';
+        $summarySource=$summary!=='' ? 'feed' : '';
         $date=strtotime((string)($rss ? $item->pubDate : ($item->published ?: $item->updated)));
         if (!$date || $date>time()+86400) continue;
         [$assigned,$reason]=classify($title,$description,$source);
         $id=hash('sha256',mb_strtolower($title).'|'.mb_strtolower($source));
-        $s=db()->prepare('INSERT INTO articles (id,title,url,source,summary,published,collected,regions,reason,match_evidence) VALUES (?,?,?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET match_evidence=excluded.match_evidence, excluded=0, url=CASE WHEN articles.url NOT LIKE \'https://news.google.com/%\' AND excluded.url LIKE \'https://news.google.com/%\' THEN articles.url WHEN articles.review=\'{}\' THEN excluded.url ELSE articles.url END, summary=CASE WHEN articles.review=\'{}\' THEN excluded.summary ELSE articles.summary END, regions=CASE WHEN articles.manual=1 OR articles.review!=\'{}\' THEN articles.regions ELSE excluded.regions END, reason=CASE WHEN articles.manual=1 OR articles.review!=\'{}\' THEN articles.reason ELSE excluded.reason END');
-        $s->execute([$id,$title,$url,$source,$summary,$date,time(),json_encode($assigned),$reason,$evidence]); $count++;
+        $s=db()->prepare('INSERT INTO articles (id,title,url,source,summary,published,collected,regions,reason,match_evidence,summary_source) VALUES (?,?,?,?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET match_evidence=excluded.match_evidence, excluded=0, url=CASE WHEN articles.url NOT LIKE \'https://news.google.com/%\' AND excluded.url LIKE \'https://news.google.com/%\' THEN articles.url WHEN articles.review=\'{}\' THEN excluded.url ELSE articles.url END, summary=CASE WHEN excluded.summary!=\'\' AND articles.summary_source IN (\'\',\'feed\') THEN excluded.summary ELSE articles.summary END, summary_source=CASE WHEN excluded.summary!=\'\' AND articles.summary_source IN (\'\',\'feed\') THEN excluded.summary_source ELSE articles.summary_source END, regions=CASE WHEN articles.manual=1 OR articles.review!=\'{}\' THEN articles.regions ELSE excluded.regions END, reason=CASE WHEN articles.manual=1 OR articles.review!=\'{}\' THEN articles.reason ELSE excluded.reason END');
+        $s->execute([$id,$title,$url,$source,$summary,$date,time(),json_encode($assigned),$reason,$evidence,$summarySource]); $count++;
     }
     return $count;
 }
@@ -49,7 +50,7 @@ function import_wordpress(string $json): int {
     foreach ($posts as $post) {
         $title=plain((string)($post['title']['rendered']??''));
         $body=plain((string)($post['content']['rendered']??''));
-        if (!(matches_phrase($title) || matches_phrase($body) || matches_phrase($post['excerpt']['rendered']??'')) || !empty($post['content']['protected'])) continue;
+        if (!(matches_topic($title) || matches_topic($body) || matches_topic($post['excerpt']['rendered']??'')) || !empty($post['content']['protected'])) continue;
         $url=(string)($post['link']??'');
         $date=strtotime(($post['date_gmt']??'').' UTC');
         if (!$date || $date>time() || !valid_url($url)) continue;
