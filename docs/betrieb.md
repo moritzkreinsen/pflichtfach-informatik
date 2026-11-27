@@ -35,7 +35,7 @@ Ein gültiger Vorschlag ändert ausschließlich `data/category-overrides.json` a
 
 ## Wöchentlicher Nachrichtenlauf
 
-`weekly-news.yml` ist für Montag 04:17 UTC vorbereitet (05:17 MEZ / 06:17 MESZ). Der Runner importiert `data/articles.json` in eine temporäre SQLite-Datenbank, sammelt exakte Suchtreffer, löst Quellenlinks auf und lädt zugängliche Volltexte. Ein offenes Modell läuft ausschließlich auf dem temporären Runner. Standardmäßig werden maximal 40 Volltexte geprüft; nach zwei Stunden beginnt keine weitere Modellprüfung. Kein Modell wird auf dem lokalen Rechner installiert.
+`weekly-news.yml` ist für Montag 04:17 UTC vorbereitet (05:17 MEZ / 06:17 MESZ). Der Runner importiert `data/articles.json` in eine temporäre SQLite-Datenbank, sammelt Suchtreffer nach der dokumentierten Suchstrategie, löst Quellenlinks auf und lädt zugängliche Volltexte und Originalteaser. `summary_source` hält die Herkunft des Teasers fest; die Modellprüfung verändert ihn nicht. Ein offenes Modell läuft ausschließlich auf dem temporären Runner. Standardmäßig werden maximal 40 Volltexte geprüft; nach zwei Stunden beginnt keine weitere Modellprüfung. Kein Modell wird auf dem lokalen Rechner installiert.
 
 Der Export verwendet eine feste Feldliste. Besucherhistorie, Sitzungsschlüssel, IP-Daten und Volltexte gelangen weder in den Daten-PR noch ins Pages-Artefakt. Der neue Nachrichtenbestand wird als PR auf `data/news-<Lauf-ID>` vorgeschlagen. **Er erscheint erst nach manueller Prüfung und Merge**, entsprechend der Projektregel für `main`. Der Modelllauf kann Kosten für Runner-Minuten verursachen und ist keine redaktionelle Garantie. GitHub-Zeitpläne sind nicht minutengenau garantiert.
 

@@ -13,6 +13,9 @@ $xml='<rss version="2.0"><channel><title>Testquelle</title><item><title>Informat
 check(import_feed($xml)===1,'RSS importiert');import_feed($xml);check(count(articles())===1,'Deduplizierung');
 check(matches_phrase('Das PFLICHTFACH&nbsp;Informatik kommt'),'Großschreibung und HTML-Leerzeichen');
 check(!matches_phrase('Informatik wird Pflichtfach') && !matches_phrase('Pflichtfach Informatikunterricht'),'Keine ähnliche oder verlängerte Wortfolge');
+foreach (['Informatik als Pflichtfach','Informatik soll künftig zum Pflichtfach werden','Informatik wird kein Pflichtfach','verpflichtender Informatikunterricht','verpflichtenden Informatikunterrichts','Informatik-Pflichtfach'] as $phrase) check(matches_topic($phrase),'Suchvariante: '.$phrase);
+foreach (['Informatikunterricht wird ausgebaut','Wahlpflichtfach Informatik','Informatik ist beliebt. Mathematik wird Pflichtfach.','Informatik wird ausgebaut, während Wirtschaft Pflichtfach wird','Informatik ist im Studium ein Pflichtfach','Informatik als Pflichtfach im Bachelor'] as $phrase) check(!matches_topic($phrase),'Kein Fehlalarm: '.$phrase);
+check(articles()[0]['summary']==='Das Pflichtfach Informatik wird an weiteren Schulen ausgebaut. Die Lehrkräfte erhalten Fortbildungen.','RSS-Teaser unverändert');
 $unrelated=str_replace('Das Pflichtfach Informatik wird an weiteren Schulen ausgebaut. Die Lehrkräfte erhalten Fortbildungen.','Informatikunterricht wird ausgebaut.',$xml);
 check(import_feed($unrelated)===0,'Allgemeiner Informatikunterricht wird verworfen');
 $bodyOnly=str_replace('<rss version="2.0">','<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">',str_replace('</item>','<content:encoded>Der Artikel erwähnt das Pflichtfach Informatik im Volltext.</content:encoded></item>',$unrelated));
@@ -20,6 +23,7 @@ check(import_feed($bodyOnly)===1,'Wortfolge nur im gelieferten Volltext genügt'
 $split=str_replace(['Informatik in Bayern','Informatikunterricht wird ausgebaut.'],['Ein Pflichtfach','Informatik ist das Thema.'],$unrelated);
 check(import_feed($split)===0,'Wortfolge darf nicht über Feldgrenzen zusammengesetzt werden');
 check(import_feed($unrelated,true)===1,'Exakter Google-Suchtreffer ohne Wortfolge im Anreißer bleibt erhalten');
+check(import_feed(str_replace('Informatikunterricht wird ausgebaut.','Informatik soll Pflichtfach werden.',$unrelated))===1,'Variante wird als Suchtreffer aufgenommen');
 $id=articles()[0]['id'];$s=db()->prepare('UPDATE articles SET manual=1,regions=?,reason=? WHERE id=?');$s->execute(['["NW"]','Manuell',$id]);import_feed($xml);check(articles()[0]['regions']===['NW'],'Korrektur bleibt nach Abruf erhalten');
 check(count(articles(['BY']))===0 && count(articles(['NW','BY']))===1,'Regionen mit ODER');
 check(count(articles([],'unauffindbar'))===0,'Suche filtert');
@@ -68,7 +72,7 @@ check(apply_initial_reviews([$review])===1,'Erstprüfung wiederhergestellt');
 check(apply_initial_reviews([$review])===0,'Erstprüfung idempotent');
 import_feed($xml);
 $restored=db()->query('SELECT * FROM articles WHERE id='.db()->quote($id))->fetch(PDO::FETCH_ASSOC);
-check($restored['url']===$review['source_url'] && $restored['summary']===$review['summary'],'Quellenlink und geprüfter Überblick bleiben beim Sammeln erhalten');
+check($restored['url']===$review['source_url'] && $restored['summary']==='Das Pflichtfach Informatik wird an weiteren Schulen ausgebaut. Die Lehrkräfte erhalten Fortbildungen.','Quellenlink bleibt erhalten und Originalteaser wird übernommen');
 $review['checked_at']--;
 check(apply_initial_reviews([$review])===0,'Ältere Erstprüfung überschreibt neuere Prüfung nicht');
 $googleXml=str_replace('https://example.org/news','https://news.google.com/rss/articles/test',$xml);

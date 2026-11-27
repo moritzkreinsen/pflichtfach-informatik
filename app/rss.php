@@ -8,7 +8,7 @@ function rss_xml(array $selected=[]): string {
     $file=$selected?implode('-',$selected):'all';
     $x=new XMLWriter();$x->openMemory();$x->startDocument('1.0','UTF-8');
     $x->startElement('rss');$x->writeAttribute('version','2.0');$x->writeAttribute('xmlns:atom','http://www.w3.org/2005/Atom');
-    $x->startElement('channel');$x->writeElement('title',$name);$x->writeElement('link',$base);$x->writeElement('description','Nachrichten mit der Wortfolge „Pflichtfach Informatik“, mit Quellenlinks und Kurzüberblicken.');$x->writeElement('language','de');
+    $x->startElement('channel');$x->writeElement('title',$name);$x->writeElement('link',$base);$x->writeElement('description','Nachrichten zum Pflichtfach Informatik mit Quellenlinks und Originalteasern.');$x->writeElement('language','de');
     $x->startElement('atom:link');$x->writeAttribute('href',$base.'/feeds/'.$file.'.rss');$x->writeAttribute('rel','self');$x->writeAttribute('type','application/rss+xml');$x->endElement();
     foreach ($rows as $a) {
         $x->startElement('item');$x->writeElement('title',$a['title']);$x->writeElement('link',$a['url']);
