@@ -17,7 +17,12 @@ function db(): PDO {
 }
 function plain(string $s): string { return trim(preg_replace('/\s+/u',' ', html_entity_decode(strip_tags($s), ENT_QUOTES|ENT_HTML5,'UTF-8')) ?? ''); }
 function classify(string $title, string $summary, string $source=''): array {
-    $aliases = ['BW'=>'baden.württemberg|baden.württembergisch|stuttgart','BY'=>'bayern|bayerisch|münchen','BE'=>'berlin(?:er)?','BB'=>'brandenburg(?:isch)?|potsdam','HB'=>'bremen|bremer|bremerhaven','HH'=>'hamburg(?:er)?','HE'=>'hessen|hessisch|wiesbaden','MV'=>'mecklenburg.vorpommern|schwerin','NI'=>'niedersachsen|niedersächsisch|hannover','NW'=>'nordrhein.westfalen|nrw|düsseldorf','RP'=>'rheinland.pfalz|mainz','SL'=>'saarland|saarländisch|saarbrücken','SN'=>'sachsen|sächsisch|dresden|görlitz|görlitzer|leipzig','ST'=>'sachsen.anhalt|magdeburg','SH'=>'schleswig.holstein|kiel|lübeck|lübecker','TH'=>'thüringen|thüringisch|erfurt','AT'=>'österreich|österreichisch|wien|innsbruck|AHS|WKÖ|digitale grundbildung','CH'=>'schweiz|schweizer|zürich|kanton'];
+    // Remove only explicit person references; separate mentions of the city remain.
+    $person='/\b(?:Julia\s+(?:(?:Willie\s+|W\.\s*))?Hamburg|(?:Kultusministerin|Bildungsministerin|Ministerin|Frau)\s+Hamburg)(?:s)?\b/iu';
+    $title=preg_replace($person,'',$title);
+    $summary=preg_replace($person,'',$summary);
+    $source=preg_replace($person,'',$source);
+    $aliases = ['BW'=>'baden.württemberg|baden.württembergisch|stuttgart','BY'=>'bayern|bayerisch|münchen','BE'=>'berlin(?:er)?','BB'=>'brandenburg(?:isch)?|potsdam','HB'=>'bremen|bremer|bremerhaven','HH'=>'hamburg(?:er)?','HE'=>'hessen|hessisch|wiesbaden','MV'=>'mecklenburg.vorpommern|schwerin','NI'=>'niedersachsen(?:s)?|niedersächsisch|hannover','NW'=>'nordrhein.westfalen|nrw|düsseldorf','RP'=>'rheinland.pfalz|mainz','SL'=>'saarland|saarländisch|saarbrücken','SN'=>'sachsen|sächsisch|dresden|görlitz|görlitzer|leipzig','ST'=>'sachsen.anhalt|magdeburg','SH'=>'schleswig.holstein|kiel|lübeck|lübecker','TH'=>'thüringen|thüringisch|erfurt','AT'=>'österreich|österreichisch|wien|innsbruck|AHS|WKÖ|digitale grundbildung','CH'=>'schweiz|schweizer|zürich|kanton'];
     $scores=[];
     foreach ($aliases as $code=>$pattern) {
         $t=$title; $s=$summary;
