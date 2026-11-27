@@ -62,6 +62,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "04fcaaaa31bff1ed3096f8dbb706010717b1b1295ef45adfdfb46613858ab99b",
+      "title": "„Unsere Verantwortung: Mit Zuversicht für Zusammenhalt und Zukunft des Saarlandes.“",
+      "url": "https://www.saarland.de/DE/presse-informationen/informationen/regierungserklaerungen/_documents/2022-04-26-regierungserklaerung-ar-amtsantritt.pdf?__blob=publicationFile&v=7",
+      "source": "saarland.de",
+      "summary": "Kurzüberblick: „Unsere Verantwortung: Mit Zuversicht für Zusammenhalt und Zukunft des Saarlandes.“. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1650956400,
+      "collected": 1795771116,
+      "regions": "[\"SL\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: SL",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "0543d5ba420a83af50fa1d7325e1f27ecb2f2e0a6123326ddd82e4443932cb69",
       "title": "Lin-Klitzing: „Brauchen Medienbildung in jedem Fach und Informatik auf hohem Niveau“",
       "url": "https://www.news4teachers.de/2026/05/nicht-gewaehrleistet-dass-kinder-gut-auf-die-digitale-welt-vorbereitet-werden/",
@@ -132,7 +147,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "source_text"
     },
@@ -162,7 +177,7 @@
       "regions": "[\"RP\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: RP",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -222,7 +237,7 @@
       "regions": "[\"SL\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: SL",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -237,7 +252,7 @@
       "regions": "[\"SL\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: SL",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -357,7 +372,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -402,7 +417,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -447,7 +462,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -737,6 +752,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "364dcc5783df753b128120d145d48d5b27cd169ae5c90f87c9670c00e0815c17",
+      "title": "Schule - Ministerin: Pflichtfach Informatik sorgt für Schub bei MINT - Bildung - SZ.de",
+      "url": "https://www.sueddeutsche.de/bildung/schule-ministerin-pflichtfach-informatik-sorgt-fuer-schub-bei-mint-dpa.urn-newsml-dpa-com-20090101-260914-930-683777",
+      "source": "SZ.de",
+      "summary": "Kurzüberblick: Schule - Ministerin: Pflichtfach Informatik sorgt für Schub bei MINT - Bildung - SZ.de. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1789369200,
+      "collected": 1795771119,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
+      "manual": 0,
+      "review": "{}",
+      "excluded": 0,
+      "match_evidence": "source_text"
+    },
+    {
       "id": "371125fc2385dc8ba129edbd059d527a41bfa8591fd879a820d17834453001ff",
       "title": "Demokratiebildung und praxisnahe Berufsorientierung",
       "url": "https://km.baden-wuerttemberg.de/de/service/pressemitteilung/pid/demokratiebildung-und-praxisnahe-berufsorientierung",
@@ -776,6 +806,21 @@
       "collected": 1793716009,
       "regions": "[\"SL\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: SL",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
+      "id": "3904c7b3761c2288fb983a147dd2e3d21d93561a80ea23cfe3506a5a61270173",
+      "title": "Prüfungen und Bewährung",
+      "url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/weiterbildung/pruefungen-und-rechtliches",
+      "source": "Bildungsserver - RLP",
+      "summary": "Kurzüberblick: Prüfungen und Bewährung. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1708362250,
+      "collected": 1795771116,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
       "manual": 0,
       "review": "{}",
       "excluded": 0,
@@ -822,7 +867,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -857,6 +902,21 @@
       "match_evidence": "source_text"
     },
     {
+      "id": "3d16bb3e09b301208c065f2fa98faafaf8650179d54be88f2dadcc0db8615332",
+      "title": "Platz schaffen für das Pflichtfach Informatik – was muss raus?",
+      "url": "https://www.heise.de/hintergrund/Pflichtfach-Informatik-Zweite-Fremdsprache-ade-9622293.html",
+      "source": "heise online",
+      "summary": "Kurzüberblick: Platz schaffen für das Pflichtfach Informatik – was muss raus?. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1707465600,
+      "collected": 1795771117,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "source_text"
+    },
+    {
       "id": "3e0c580d76411b450c58ea9a5e2358fb9eabd2b27890b53ec29a87522846c3b7",
       "title": "28 Pilotschulen in RLP starten mit Informatik als Pflichtfach",
       "url": "https://www.swr.de/swraktuell/rheinland-pfalz/informatik-pflichtfach-minister-teuber-stellt-schulen-fuer-pilotphase-vor-100.html",
@@ -882,7 +942,7 @@
       "regions": "[\"ST\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: ST",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -962,6 +1022,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "443051ed105e2d239aab5bcaea3a64a6a125f380fe4b2646e10d4600a81f3553",
+      "title": "Künstliche Intelligenz als Unterrichtsthema",
+      "url": "https://bildung.rlp.de/informatik/projekte-und-themen/ki",
+      "source": "Bildungsserver - RLP",
+      "summary": "Kurzüberblick: Künstliche Intelligenz als Unterrichtsthema. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1740597850,
+      "collected": 1795771116,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
+      "manual": 0,
+      "review": "{}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "457f3f6c315f6cab0659dc0d738b0ae17088547e18cf98d496ad2848ed6b95b5",
       "title": "Informatik",
       "url": "https://bildung.rlp.de/informatik/",
@@ -1017,7 +1092,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"needs_review\", \"checked_at\": 1795772138, \"method\": \"two_pass_fulltext\", \"prompt_version\": \"focus-v1\", \"text_sha256\": \"81008e9f354261ba849974cef5be3dc8a7c8a0595c37babfcae7e76be32def29\", \"complete_article\": false}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -1047,7 +1122,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -1062,7 +1137,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"needs_review\", \"checked_at\": 1795771830, \"method\": \"two_pass_fulltext\", \"prompt_version\": \"focus-v1\", \"text_sha256\": \"319fe811e895df9078d6888ad3fe15799dd417ebd6807b55c88dbeccca3b3665\", \"complete_article\": false}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -1127,6 +1202,21 @@
       "match_evidence": "source_text"
     },
     {
+      "id": "4f40f93bf2137ca086e827cc6347749ab5e0b4c3b7525a5c8fde1cec79992b9e",
+      "title": "Informatik",
+      "url": "https://bildung.rlp.de/informatik/",
+      "source": "Land Rheinland-Pfalz",
+      "summary": "Kurzüberblick: Informatik. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1708396431,
+      "collected": 1795771116,
+      "regions": "[\"RP\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: RP",
+      "manual": 0,
+      "review": "{}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "509717f665d6c0296a4b83984e4f9f6894e67c7699b898a666478ac0851621b6",
       "title": "Digitalisierung: Informatik für alle",
       "url": "https://www.zeit.de/gesellschaft/schule/2018-02/digitalisierung-informatikunterricht-schulen-bildung",
@@ -1157,6 +1247,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "527fd03bba0ac39676f2ac837c6ae02ced7caedc19329ad9f14c42fe95f58fee",
+      "title": "Pflichtfach Informatik . Informatik : Bildungsserver Rheinland-Pfalz",
+      "url": "https://bildung.rlp.de/informatik/projekte-und-themen/unterricht/pflichtfach",
+      "source": "Bildungsserver - RLP",
+      "summary": "Kurzüberblick: Pflichtfach Informatik . Informatik : Bildungsserver Rheinland-Pfalz. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1737502939,
+      "collected": 1795771116,
+      "regions": "[\"RP\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: RP",
+      "manual": 0,
+      "review": "{}",
+      "excluded": 0,
+      "match_evidence": "source_text"
+    },
+    {
       "id": "52d033beb0cf3f47f496f418cfc29b9d8868b577113a43ab5451b42a313b9d98",
       "title": "Schulfach \"Informatik und Medienbildung\": Was es aus Sicht eines Experten unbedingt braucht",
       "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/neues-schulfach-informatik-medienbildung-interview-erziehungswissenschaftler-thomas-knaus-100.html",
@@ -1172,6 +1277,36 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "52ef23e45ac1bb2b5e5dc76cf51f2b4fdf2dec48602584cb8b0030a3b8dd9d65",
+      "title": "Lehrermangel: Das will Bildungsministerin Karin Prien dagegen tun",
+      "url": "https://www.abendblatt.de/region/stormarn/ahrensburg/article237722871/Lehrermangel-Das-will-Bildungsministerin-Prien-dagegen-tun.html",
+      "source": "Hamburger Abendblatt",
+      "summary": "Kurzüberblick: Lehrermangel: Das will Bildungsministerin Karin Prien dagegen tun. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1676966400,
+      "collected": 1795771120,
+      "regions": "[\"HH\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: HH",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
+      "id": "534b062aa4590adc5caa8e1d69a3877e4e6d1b0d8a553004059704fd5a97d498",
+      "title": "Sachsen-Anhalt bei Informatik in der Oberstufe im Mittelfeld",
+      "url": "https://www.mz.de/leben/familie/sachsen-anhalt-bei-informatik-in-der-oberstufe-im-mittelfeld-4135381",
+      "source": "Mitteldeutsche Zeitung",
+      "summary": "Kurzüberblick: Sachsen-Anhalt bei Informatik in der Oberstufe im Mittelfeld. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1761030000,
+      "collected": 1795771117,
+      "regions": "[\"ST\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: ST",
+      "manual": 0,
+      "review": "{}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "53e35cc78537ef64d96aa6ddd0a14b31c753d80f63197ce56ffc63847ad3f79f",
       "title": "„Deutschland hinkt hoffnungslos hinterher“",
       "url": "https://www.faz.net/premium/digitalwirtschaft/monika-schnitzer-deutschland-hinkt-bei-informatik-hinterher-18941179.html",
@@ -1182,7 +1317,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -1257,7 +1392,7 @@
       "regions": "[\"NI\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: NI",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -1292,6 +1427,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "5d717b92c7dfc7b916e9c1abb79616ef552fa831f941636c6f68180f396e5b81",
+      "title": "Positionspapier_Digitale Bildung",
+      "url": "https://www.bitkom.org/sites/main/files/file/import/20160913-Bitkom-Positionspapier-Digitale-Bildung.pdf",
+      "source": "Bitkom e. V.",
+      "summary": "Kurzüberblick: Positionspapier_Digitale Bildung. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1473750000,
+      "collected": 1795771117,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "5df37e950bc1628b07fb4c73cff622efbbf4bc4b2239a20fa8c0b6de7bda5be3",
       "title": "Pflichtfach Programmieren: Laut Umfrage will Mehrheit der Deutschen „Coding“ im Schulunterricht",
       "url": "https://www.news4teachers.de/2016/10/pflichtfach-programmieren-laut-umfrage-will-mehrheit-der-deutschen-coding-im-schulunterricht/",
@@ -1322,6 +1472,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "633e0a9afd7468512fb266ab8ab615e6333acf88f6ade46d9bfffb6e8c3d7c14",
+      "title": "Landtagswahl: FDP Schleswig-Holstein beschließt Wahlprogramm",
+      "url": "https://www.fdp.de/fdp-schleswig-holstein-beschliesst-wahlprogramm",
+      "source": "Freie Demokraten | FDP",
+      "summary": "Kurzüberblick: Landtagswahl: FDP Schleswig-Holstein beschließt Wahlprogramm. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1647158400,
+      "collected": 1795771120,
+      "regions": "[\"SH\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: SH",
+      "manual": 0,
+      "review": "{}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "637a5329d73d506676e3692bc868d5ea4948e5237a1329084b0db68ba905ea44",
       "title": "Es fehlen noch Lehrer: Zum neuen Schuljahr gibt es ein neues Pflichtfach in Rheinland-Pfalz",
       "url": "https://www.volksfreund.de/region/rheinland-pfalz/rheinland-pfalz-schuljahr-beginnt-mit-neuem-pflichtfach-v1_aid-132330555",
@@ -1332,7 +1497,7 @@
       "regions": "[\"RP\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: RP",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -1347,7 +1512,7 @@
       "regions": "[\"SL\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: SL",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -1364,7 +1529,7 @@
       "manual": 0,
       "review": "{\"status\": \"region_verified\", \"checked_at\": 1793786471, \"method\": \"regional_review\", \"text_sha256\": null, \"complete_article\": false}",
       "excluded": 0,
-      "match_evidence": "legacy_text"
+      "match_evidence": "source_text"
     },
     {
       "id": "64f4e288db979e5aecd0eb5755c61f4e21987ff3a709c4dc7bd4590be92808fd",
@@ -1437,7 +1602,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "source_text"
     },
@@ -1451,6 +1616,21 @@
       "collected": 1793716009,
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
+      "id": "6c325ae88779866946f266150e7a04af4ba03af5a70807bf2278c70fa868aa90",
+      "title": "Unterrichtserlaubnis",
+      "url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/weiterbildung/unterrichtserlaubnis",
+      "source": "Bildungsserver - RLP",
+      "summary": "Kurzüberblick: Unterrichtserlaubnis. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1708404371,
+      "collected": 1795771116,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
       "manual": 0,
       "review": "{}",
       "excluded": 0,
@@ -1515,6 +1695,21 @@
       "review": "{}",
       "excluded": 0,
       "match_evidence": "source_text"
+    },
+    {
+      "id": "7af903f003d30592f6a0e047c64b55d910bd27fd226c5455d4aaeeacecdb06cd",
+      "title": "Informatik-Monitor: Informatik in immer mehr Bundesländern Schul-Pflichtfach",
+      "url": "https://www.zeit.de/news/2025-10/21/informatik-in-immer-mehr-bundeslaendern-schul-pflichtfach",
+      "source": "DIE ZEIT",
+      "summary": "Kurzüberblick: Informatik-Monitor: Informatik in immer mehr Bundesländern Schul-Pflichtfach. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1761030000,
+      "collected": 1795771120,
+      "regions": "[\"DE\"]",
+      "reason": "Überregionaler Deutschland-Bezug",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
     },
     {
       "id": "7bd43332b45a4ffc7a0ac95d2b69879a43404b3ee1bc5b94f52609e4fcf1b761",
@@ -1622,6 +1817,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "834d80127910f580463114c607af7ff1534aedc1801725ec7bd0d03f686978f4",
+      "title": "Für mehr Durchblick in der Informatik",
+      "url": "https://www.stifterverband.org/insights/bildung-kompetenzen/mint-fachkraefte/fuer-mehr-durchblick-der-informatik",
+      "source": "Stifterverband",
+      "summary": "Kurzüberblick: Für mehr Durchblick in der Informatik. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1518595200,
+      "collected": 1795771117,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
+      "manual": 0,
+      "review": "{}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "83550d2207309096d78581bdc1fe25c39e63910643c4e78f275ad5c27ca9b442",
       "title": "Podcast Stuttgart ist Deutschlands smarteste Stadt und Berlin steht vor der Wahl",
       "url": "https://www.bitkom.org/mediathek/podcasts/Stuttgart-ist-Deutschlands-smarteste-Stadt-und-Berlin-steht-vor-der-Wahl",
@@ -1707,7 +1917,7 @@
       "regions": "[\"HE\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: HE",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -1722,7 +1932,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -1767,7 +1977,7 @@
       "regions": "[\"HH\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: HH",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -1812,7 +2022,7 @@
       "regions": "[\"SL\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: SL",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"needs_review\", \"checked_at\": 1795771541, \"method\": \"two_pass_fulltext\", \"prompt_version\": \"focus-v1\", \"text_sha256\": \"dada73500c32463d7c6e763dfe30454531d8f2180ca31322b475918be00cddce\", \"complete_article\": false}",
       "excluded": 0,
       "match_evidence": "source_text"
     },
@@ -1857,7 +2067,7 @@
       "regions": "[\"NW\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: NW",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -1875,6 +2085,36 @@
       "review": "{\"status\": \"region_verified\", \"checked_at\": 1793786471, \"method\": \"regional_review\", \"text_sha256\": \"6693a8482162d0e398f27e10f8964783b09edb12bcab6fb90f776ef8949e047f\", \"complete_article\": false}",
       "excluded": 0,
       "match_evidence": "source_text"
+    },
+    {
+      "id": "96d3995a8d1810efaaa75e1892e7cefd7c1901f6a44b873bd375bc68f74b5a52",
+      "title": "„Social-Media-Sucht“: Warum Informatik an Schulen in RLP immer wichtiger wird",
+      "url": "https://www.merkurist.de/rheinhessen/rheinland-pfalz/social-media-sucht-warum-informatik-an-schulen-in-rlp-immer-wichtiger-wird-art-27164",
+      "source": "Merkurist",
+      "summary": "Kurzüberblick: „Social-Media-Sucht“: Warum Informatik an Schulen in RLP immer wichtiger wird. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1786431600,
+      "collected": 1795771119,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
+      "manual": 0,
+      "review": "{}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
+      "id": "97725f945517dc0e954daf02cbec09472cc9185a2e2f276787126608a49a7b80",
+      "title": "FAQ zu IPS",
+      "url": "https://bildung.rlp.de/informatik/projekte-und-themen/ips/faq",
+      "source": "Bildungsserver - RLP",
+      "summary": "Kurzüberblick: FAQ zu IPS. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1708366658,
+      "collected": 1795771116,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
+      "manual": 0,
+      "review": "{}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
     },
     {
       "id": "977cfabae0281af5627d07f4d5d554a18a58dc9ad5905fca7329ba95751607e5",
@@ -1902,7 +2142,7 @@
       "regions": "[\"SN\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: SN",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -2022,7 +2262,37 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
+      "id": "a467f9ff6c699dec51662d435726b7c64681100d7976bd72fd5a5b257d7c43f8",
+      "title": "Informatikunterricht in der digitalen Welt",
+      "url": "https://bildung.rlp.de/informatik/projekte-und-themen/unterricht/bildung-in-der-digitalen-welt",
+      "source": "Bildungsserver - RLP",
+      "summary": "Kurzüberblick: Informatikunterricht in der digitalen Welt. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1709841577,
+      "collected": 1795771116,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
+      "manual": 0,
       "review": "{}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
+      "id": "a489124e32f9688c0f632109a09dcd5403a0ec31f089a22e44aefaec06713411",
+      "title": "Mathe und Latein am Gymnasium Schäftlarn: Warum diese Klosterschule in Bayern boomt",
+      "url": "https://www.faz.net/aktuell/karriere-hochschule/klassenzimmer/schulbesuch/mathe-und-latein-am-gymnasium-schaeftlarn-warum-diese-klosterschule-in-bayern-boomt-201126670.html",
+      "source": "FAZ",
+      "summary": "Kurzüberblick: Mathe und Latein am Gymnasium Schäftlarn: Warum diese Klosterschule in Bayern boomt. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1787209200,
+      "collected": 1795771117,
+      "regions": "[\"BY\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: BY",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -2072,6 +2342,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "a65da51734bb16518c31bbc813ef1fc65c2f7de61e579dfb670e1ccf2d7891c1",
+      "title": "Informatik-Lehrpläne",
+      "url": "https://bildung.rlp.de/informatik/projekte-und-themen/lehrplaene",
+      "source": "Bildungsserver - RLP",
+      "summary": "Kurzüberblick: Informatik-Lehrpläne. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1708440057,
+      "collected": 1795771116,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
+      "manual": 0,
+      "review": "{}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "a6c66bee5078448e66a4b8248c726b0781b0cb13f3a5345416f524913535cdb4",
       "title": "Lehrermangel: Piazolo ordnet Mehrarbeit für Grundschullehrer an – BLLV und GEW kündigen „massiven Widerstand“ an",
       "url": "https://www.news4teachers.de/2020/01/wegen-lehrermangel-piazolo-ordnet-mehrarbeit-fuer-grundschullehrer-an-bllv-kuendigt-massiven-widerstand-an/",
@@ -2112,9 +2397,24 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
+    },
+    {
+      "id": "a950b28bad0b3ece31d9b87eb264b7fb2d83bd5294a5379d3c1ed9b86d9d14de",
+      "title": "Pflichtfach Informatik: Der Föderalismus kann – wenn er will",
+      "url": "https://www.jmwiarda.de/blog/2025/10/23/pflichtfach-informatik-der-foederalismus-kann-wenn-er-will",
+      "source": "Der Wiarda-Blog",
+      "summary": "Kurzüberblick: Pflichtfach Informatik: Der Föderalismus kann – wenn er will. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1761202800,
+      "collected": 1795771115,
+      "regions": "[\"DE\"]",
+      "reason": "Überregionaler Deutschland-Bezug",
+      "manual": 0,
+      "review": "{}",
+      "excluded": 0,
+      "match_evidence": "source_text"
     },
     {
       "id": "ab6c9d66a89cf9646e5a59ca56e98c20181fa0d18622b0b31ec625513a7c76e3",
@@ -2202,7 +2502,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -2237,6 +2537,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "b24541335cd456a64cd517600d119a1a952c32788aaa743912e4f019051b9bd5",
+      "title": "Sind Niedersachsens Schulen noch zeitgemäß, Frau Ministerin Hamburg?",
+      "url": "https://www.haz.de/lokales/hannover/sind-niedersachsens-schulen-noch-zeitgemaess-frau-ministerin-hamburg-WE24Z6QO65GZ3IKD3INRVWW7CE.html",
+      "source": "HAZ",
+      "summary": "Kurzüberblick: Sind Niedersachsens Schulen noch zeitgemäß, Frau Ministerin Hamburg?. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1692192981,
+      "collected": 1795771119,
+      "regions": "[\"HH\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: HH",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "b2656090d853f8c9f15e2cdba1bbc5fd7e1df6745dc9504360416f67018e5aee",
       "title": "Informatik in immer mehr Bundesländern Schul-Pflichtfach",
       "url": "https://www.egovernment.de/informatik-in-immer-mehr-bundeslaendern-schul-pflichtfach-a-53979e44323138d99dfb5446df5aff0c/",
@@ -2247,7 +2562,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -2292,9 +2607,24 @@
       "regions": "[\"BY\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: BY",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
+    },
+    {
+      "id": "b60d6f0366e7275fcbc5188476adad297afe2bbf61d7daadd291ba34cc1ae1e6",
+      "title": "Pflichtfach Informatik startet an 28 Pilotschulen in Rheinland-Pfalz",
+      "url": "https://bildungsklick.de/schule/detail/pflichtfach-informatik-pilotschulen-rheinland-pfalz",
+      "source": "Bildungsklick",
+      "summary": "Kurzüberblick: Pflichtfach Informatik startet an 28 Pilotschulen in Rheinland-Pfalz. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1751266800,
+      "collected": 1795771115,
+      "regions": "[\"RP\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: RP",
+      "manual": 0,
+      "review": "{}",
+      "excluded": 0,
+      "match_evidence": "source_text"
     },
     {
       "id": "bbc16a04270b77f9fc9fbb9e424bbfac495f1abf02a088ec3c2ff6eb163fddc7",
@@ -2384,7 +2714,7 @@
       "manual": 0,
       "review": "{\"status\": \"region_verified\", \"checked_at\": 1793786471, \"method\": \"regional_review\", \"text_sha256\": \"39d72ebac2bb526bd6a121da7d3775cdf29a2dd305d97d5dd867fdcad16ebeda\", \"complete_article\": false}",
       "excluded": 0,
-      "match_evidence": "legacy_text"
+      "match_evidence": "source_text"
     },
     {
       "id": "be5149d239bab27569a226cc4418d4ace6e06352353b861874f6439535731e5e",
@@ -2457,7 +2787,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -2488,6 +2818,21 @@
       "reason": "Bericht zur Einführung bzw. Umsetzung des Pflichtfachs in Rheinland-Pfalz. Der konkrete Schul- oder Ministeriumsbezug liegt in diesem Land.",
       "manual": 0,
       "review": "{\"status\": \"region_verified\", \"checked_at\": 1793786471, \"method\": \"regional_review\", \"text_sha256\": \"82d5384b68fe3b7c17d46eaef957c2521a5d794785471c380e6c268317044093\", \"complete_article\": false}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
+      "id": "c650c7d33625703bfc50bb4977773bbda3793e4880861f59d53a850acb81f96c",
+      "title": "Projekte und Themen",
+      "url": "https://bildung.rlp.de/informatik/projekte-und-themen",
+      "source": "Bildungsserver - RLP",
+      "summary": "Kurzüberblick: Projekte und Themen. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1708362220,
+      "collected": 1795771116,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -2567,6 +2912,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "d02543afaf94373711a86054761064b1caa50066465fd8daa19af3af96fd706a",
+      "title": "Minister Barke stellt Digitalstrategie für das Saarland vor",
+      "url": "https://www.wndn.de/minister-barke-stellt-digitalstrategie-fuer-das-saarland-vor/",
+      "source": "St. Wendeler Land Nachrichten",
+      "summary": "Kurzüberblick: Minister Barke stellt Digitalstrategie für das Saarland vor. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1787382000,
+      "collected": 1795771119,
+      "regions": "[\"SL\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: SL",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "d105193e8e2c51433c39e798ef553ea3976652d85734646b2c17cd42420ec2f1",
       "title": "Künstliche Intelligenz . Informatik",
       "url": "https://bildung.rlp.de/informatik/projekte-und-themen/ki",
@@ -2582,6 +2942,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "d1a4e11236ca5e774eaa0f88e32bfecffd19a0aa8ae484911b0bf488662bc5e8",
+      "title": "Verlaufsplan",
+      "url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/weiterbildung/verlaufsplan",
+      "source": "Bildungsserver - RLP",
+      "summary": "Kurzüberblick: Verlaufsplan. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1708360893,
+      "collected": 1795771116,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "d338de1327083a0f41151dd06166c88eb8e2815bb2a9f858b81df84f8c7ce64c",
       "title": "Zukunftskompetenzen für alle: Saarland beim Pflichtfach Informatik bundesweit an der Spitze",
       "url": "https://www.saarland.de/mbk/DE/aktuelles/medieninformationen/2026/10/261030_pm_informatik-monitor",
@@ -2592,7 +2967,7 @@
       "regions": "[\"SL\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: SL",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795771345}",
       "excluded": 0,
       "match_evidence": "source_text"
     },
@@ -2637,7 +3012,7 @@
       "regions": "[\"BY\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: BY",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -2762,6 +3137,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "df18aa39c35953c4c0e3ad00e504e0bb1f5f523c634fd5252909eed92e5aeb1a",
+      "title": "Orientierungsrahmen MINT-Bildung an Schulen in Baden-Württemberg",
+      "url": "https://km.baden-wuerttemberg.de/fileadmin/redaktion/m-km/intern/PDF/Dateien/Schulart%C3%BCbergreifend/MINT/KM-BW-MINT-Orientierungsrahmen.pdf",
+      "source": "Ministerium für Kultus Baden-Württemberg",
+      "summary": "Kurzüberblick: Orientierungsrahmen MINT-Bildung an Schulen in Baden-Württemberg. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1780902000,
+      "collected": 1795771115,
+      "regions": "[\"BW\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: BW",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "df38f67458d3daa2fd5765ccf40a4fb52af040d3bd4a0d418a73f6ee5cf85f44",
       "title": "Unterrichtserlaubnis . Informatik",
       "url": "https://bildung.rlp.de/informatik/fortbildung-und-beratung/weiterbildung/unterrichtserlaubnis",
@@ -2852,6 +3242,21 @@
       "match_evidence": "source_text"
     },
     {
+      "id": "e57d2cb8e91304051e8544a81a806cddc3a9a61de161ce60ab6a5516b0485bb8",
+      "title": "Kontakt",
+      "url": "https://bildung.rlp.de/informatik/kontakt",
+      "source": "Bildungsserver - RLP",
+      "summary": "Kurzüberblick: Kontakt. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1708355623,
+      "collected": 1795771116,
+      "regions": "[\"UNK\"]",
+      "reason": "Keine eindeutigen regionalen Merkmale; Prüfung empfohlen",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "e6bb0d6e7428fcfcb8768db7f704c2800b91e0a476829ba17ac028ceddd14e8e",
       "title": "Widerstand gegen neues bayerisches G9 schwindet – die Reform im Überblick",
       "url": "https://www.news4teachers.de/2017/03/widerstand-gegen-neues-g9-in-bayer-schwindet-die-reform-im-ueberblick/",
@@ -2865,6 +3270,21 @@
       "review": "{}",
       "excluded": 0,
       "match_evidence": "source_text"
+    },
+    {
+      "id": "e7706614da80c0edaafd397d4bc981f406cd7da5d25ab2f80747e0ca6adf4605",
+      "title": "Sommergespräch: Das plant Streichert-Clivot in ihrem Fünf-Punkte-Programm für die Bildung im Saarland",
+      "url": "https://www.saarbruecker-zeitung.de/saarland/saarland-das-fuenf-punkte-programm-von-bildungsministerin-streichert-clivot_aid-96759559",
+      "source": "Saarbrücker Zeitung",
+      "summary": "Kurzüberblick: Sommergespräch: Das plant Streichert-Clivot in ihrem Fünf-Punkte-Programm für die Bildung im Saarland. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1693465200,
+      "collected": 1795771119,
+      "regions": "[\"SL\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: SL",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
     },
     {
       "id": "e8a3e83dad95bdca4733522c932538900dbde29bd9e05a2099b5b0cf03f16cf8",
@@ -2892,7 +3312,7 @@
       "regions": "[\"DE\"]",
       "reason": "Überregionaler Deutschland-Bezug",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -2907,7 +3327,7 @@
       "regions": "[\"BW\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: BW",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -2937,7 +3357,7 @@
       "regions": "[\"SL\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: SL",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -2982,7 +3402,7 @@
       "regions": "[\"NI\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: NI",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "source_text"
     },
@@ -3047,6 +3467,21 @@
       "match_evidence": "google_exact_query"
     },
     {
+      "id": "f778a9a16eda78f84b2c444e7c777d5f9031dff98243f22391b5aa2bd2a823cf",
+      "title": "Neue Materialien für Unterricht: Wie saarländische Schüler zu kleinen Ingenieuren und IT-Chefs werden sollen",
+      "url": "https://www.saarbruecker-zeitung.de/saarland/saarland-kostenlose-materialen-fuer-lehrer-zum-thema-it_aid-135725915",
+      "source": "Saarbrücker Zeitung",
+      "summary": "Kurzüberblick: Neue Materialien für Unterricht: Wie saarländische Schüler zu kleinen Ingenieuren und IT-Chefs werden sollen. Details und Einordnung im verlinkten Originalbeitrag.",
+      "published": 1795161600,
+      "collected": 1795771119,
+      "regions": "[\"SL\"]",
+      "reason": "Regionale Begriffe in Titel oder Feedtext: SL",
+      "manual": 0,
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795771345}",
+      "excluded": 0,
+      "match_evidence": "google_exact_query"
+    },
+    {
       "id": "f7de53f8255e4e2a5a032f5bd1287882cc10365965254d4eb2bf38af200fd8fe",
       "title": "„Verteufelung vermeiden“: Lehrer sollen für Einsatz der KI fit gemacht werden",
       "url": "https://www.news4teachers.de/2023/07/verteufelung-vermeiden-lehrer-sollen-fuer-einsatz-der-ki-fit-gemacht-werden/",
@@ -3072,7 +3507,7 @@
       "regions": "[\"RP\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: RP",
       "manual": 0,
-      "review": "{\"status\": \"unavailable\", \"checked_at\": 1793714808}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -3087,7 +3522,7 @@
       "regions": "[\"SL\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: SL",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -3132,7 +3567,7 @@
       "regions": "[\"NI\"]",
       "reason": "Regionale Begriffe in Titel oder Feedtext: NI",
       "manual": 0,
-      "review": "{}",
+      "review": "{\"status\": \"unavailable\", \"checked_at\": 1795772138}",
       "excluded": 0,
       "match_evidence": "google_exact_query"
     },
@@ -3167,5 +3602,5 @@
       "match_evidence": "google_exact_query"
     }
   ],
-  "last_success": "2026-11-03T14:28:16+00:00"
+  "last_success": "2026-11-27T09:18:54+00:00"
 }
