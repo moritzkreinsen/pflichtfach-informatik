@@ -64,4 +64,4 @@ Die Tests prüfen unter anderem Quellenverarbeitung, Korrekturvorschläge, unver
 
 ## Kartendaten
 
-SVG abgeleitet aus [deutschlandGeoJSON](https://github.com/isellsoap/deutschlandGeoJSON), `2_bundeslaender/4_niedrig.geo.json`, Repository-Lizenz [Unlicense](https://github.com/isellsoap/deutschlandGeoJSON/blob/main/LICENSE.md). Dort genannte Datenquelle: GIS-DATA / DIVA-GIS. Die Karte dient der Nachrichtenauswahl und zeigt kein Bildungsranking.
+SVG abgeleitet aus [deutschlandGeoJSON](https://github.com/isellsoap/deutschlandGeoJSON), `2_bundeslaender/4_niedrig.geo.json`, Repository-Lizenz [Unlicense](https://github.com/isellsoap/deutschlandGeoJSON/blob/main/LICENSE.md). Dort genannte Datenquelle: GIS-DATA / DIVA-GIS. Die Karte dient als Länderfilter; die Zahlen je Region zeigen die Anzahl der zugeordneten Beiträge.
