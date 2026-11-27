@@ -9,7 +9,16 @@
     "\"Pflichtfach Informatik\" site:saarland.de",
     "\"Pflichtfach Informatik\" site:kmk.org",
     "\"Pflichtfach Informatik\" site:stifterverband.org",
-    "\"Pflichtfach Informatik\" site:bitkom.org"
+    "\"Pflichtfach Informatik\" site:bitkom.org",
+    "\"Informatik als Pflichtfach\"",
+    "\"Informatik wird Pflichtfach\"",
+    "\"Informatik soll\" \"Pflichtfach\"",
+    "\"Informatik\" \"zum Pflichtfach\"",
+    "\"Informatik-Pflichtfach\"",
+    "\"verpflichtender Informatikunterricht\"",
+    "\"verpflichtenden Informatikunterricht\"",
+    "\"obligatorischer Informatikunterricht\"",
+    "\"verbindlicher Informatikunterricht\""
   ],
   "feeds": [
     {
@@ -26,6 +35,8 @@
     }
   ],
   "wordpress": [
-    "https://www.news4teachers.de/wp-json/wp/v2/posts?search=Pflichtfach%20Informatik&per_page=100"
+    "https://www.news4teachers.de/wp-json/wp/v2/posts?search=Pflichtfach%20Informatik&per_page=100",
+    "https://www.news4teachers.de/wp-json/wp/v2/posts?search=Informatik%20Pflichtfach&per_page=100",
+    "https://www.news4teachers.de/wp-json/wp/v2/posts?search=verpflichtender%20Informatikunterricht&per_page=100"
   ]
 }

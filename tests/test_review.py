@@ -4,7 +4,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from review import validate,review_article
 class ReviewTests(unittest.TestCase):
     text='Berlin führt Informatik ein. Niedersachsen wird nur als Vergleich genannt.'
-    def result(self,regions=None):return {'relevant':True,'complete_article':True,'regions':regions or ['BE'],'reason':'Berlin steht im Fokus; Niedersachsen ist nur ein Vergleich.','evidence':'Berlin führt Informatik ein.','summary':'Berlin plant die Einführung des Schulfachs Informatik.'}
+    def result(self,regions=None):return {'relevant':True,'complete_article':True,'regions':regions or ['BE'],'reason':'Berlin steht im Fokus; Niedersachsen ist nur ein Vergleich.','evidence':'Berlin führt Informatik ein.'}
     def test_evidence(self):
         result=self.result();result['evidence']='Das steht nicht im Text'
         with self.assertRaises(ValueError):validate(result,self.text)

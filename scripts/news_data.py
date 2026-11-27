@@ -5,7 +5,7 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 REGIONS = json.loads((ROOT / 'app/regions.json').read_text())
 FIELDS = ('id', 'title', 'url', 'source', 'summary', 'published', 'collected',
-          'regions', 'reason', 'manual', 'review', 'excluded', 'match_evidence')
+          'regions', 'reason', 'manual', 'review', 'excluded', 'match_evidence', 'summary_source')
 REVIEW_FIELDS = ('status', 'checked_at', 'method', 'prompt_version', 'text_sha256', 'complete_article')
 
 def read_json(path):
@@ -29,6 +29,9 @@ def load_articles(path=ROOT / 'data/articles.json'):
         raise ValueError('Ungültiges Nachrichtenformat')
     ids = set()
     for a in payload['articles']:
+        a.setdefault('summary_source', '')
+        if a['summary_source'] not in ('', 'feed', 'og:description', 'description', 'twitter:description'):
+            raise ValueError('Ungültige Teaserquelle')
         if set(a) != set(FIELDS) or not re.fullmatch(r'[a-f0-9]{64}', a['id']) or a['id'] in ids:
             raise ValueError('Ungültiger oder doppelter Artikel')
         ids.add(a['id'])
@@ -64,6 +67,7 @@ def public_articles(payload, overrides):
         if a['excluded']:
             continue
         item = {key: a[key] for key in ('id', 'title', 'url', 'source', 'summary', 'published')}
+        if not a.get('summary_source'): item['summary'] = ''
         item['regions'] = overrides.get(a['id'], json.loads(a['regions']))
         result.append(item)
     return sorted(result, key=lambda a: (-a['published'], a['id']))
@@ -74,6 +78,7 @@ def export_db(db_path, output):
     rows = []
     for record in db.execute('SELECT ' + ','.join(FIELDS) + ' FROM articles ORDER BY id'):
         a = dict(record)
+        if not a['summary_source']: a['summary'] = ''
         review = json.loads(a['review'])
         if isinstance(review.get('method'), str):
             review['method'] = review['method'].removeprefix('assistant_')
