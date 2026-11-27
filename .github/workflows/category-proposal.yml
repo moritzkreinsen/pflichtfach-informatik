@@ -12,14 +12,18 @@ jobs:
     if: vars.ENABLE_CORRECTIONS == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    permissions:
-      contents: write
-      pull-requests: write
+    outputs:
+      valid: ${{ steps.proposal.outputs.valid }}
+      source_sha: ${{ steps.source.outputs.sha }}
     steps:
       # Always execute trusted main code, never issue content or a proposed branch.
       - uses: actions/checkout@v4
         with:
           ref: main
+          persist-credentials: false
+      - name: Ausgangsstand festhalten
+        id: source
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -31,12 +35,30 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_*.py'
           python scripts/build_static.py
+      - name: Ergebnis festhalten
+        if: steps.proposal.outputs.valid != 'true'
+        run: echo 'Kein gültiger oder aktueller Kategorie-Vorschlag. Es wurde nichts geändert.' >> "$GITHUB_STEP_SUMMARY"
+  create-pr:
+    needs: propose
+    if: needs.propose.outputs.valid == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.propose.outputs.source_sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Geprüften Vorschlag erneut aus Ereignisdaten lesen
+        id: proposal
+        run: python scripts/propose_correction.py
       - name: Pull Request erstellen
         if: steps.proposal.outputs.valid == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           CORRECTION_ISSUE: ${{ steps.proposal.outputs.issue }}
         run: python scripts/open_data_pr.py correction
-      - name: Ergebnis festhalten
-        if: steps.proposal.outputs.valid != 'true'
-        run: echo 'Kein gültiger oder aktueller Kategorie-Vorschlag. Es wurde nichts geändert.' >> "$GITHUB_STEP_SUMMARY"
