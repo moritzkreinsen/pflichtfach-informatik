@@ -9,7 +9,7 @@
 - Der Projektzugang liegt im macOS-Schlüsselbund. Tokens niemals ausgeben, in Dateien schreiben oder in Git-URLs speichern.
 - Keine Laufzeitdatenbank, Volltexte, IP-/Sitzungsdaten, Konfiguration mit Zugangsdaten oder lokale Modell-Dateien committen. `.gitignore` beachten.
 - Die primäre Webseite ist statisch (JSON + HTML/JS + RSS). Kategorieänderungen werden über GitHub-Issues als Daten-PR vorgeschlagen; erst ein freigegebener Merge veröffentlicht sie. PHP/SQLite wird nur beim Sammeln bzw. im optionalen dynamischen Hosting benötigt.
-- Das Repository bleibt bis zur ausdrücklichen Freigabe privat. Pages und die neuen Betriebsworkflows erst nach Freigabe aktivieren; die ENABLE_*-Variablen bleiben vorher unset.
+- Das Repository ist öffentlich; Pages, Nachrichtensammlung und Korrekturvorschläge sind seit dem 27. November 2026 aktiviert. Nur minimal erforderliche Rechte verwenden: Standard lesend, Schreibrechte ausschließlich für PR-Erstellung bzw. Pages-Deployment. Keine automatischen Merges.
 - Nach einem Merge gemergte Arbeitsbranches lokal und auf GitHub löschen. Bei beauftragten Arbeiten mit fetch --prune, Push und Fast-forward synchron halten; ungemergte Arbeit niemals verwerfen.
 - Keine lokalen Sprachmodelle installieren oder starten. Der vorbereitete Wochenjob führt das Modell ausschließlich auf dem GitHub-Runner aus.
 - Prüfungen: `php tests/run.php`, `python3 -m unittest discover -s tests -p 'test_*.py'`, `node tests/test_static_frontend.cjs` und `python3 scripts/build_static.py`.

@@ -4,17 +4,20 @@ Diese Datei beschreibt die vorbereitete GitHub-Konfiguration. Die Webseite selbs
 
 ## Stand und Aktivierung
 
-Das Repository bleibt bis zur ausdrücklichen Freigabe privat. Die neuen Abläufe sind mit Repository-Variablen abgeschaltet, solange deren Wert nicht genau `true` lautet. Es werden keine Pages-Einstellungen, Sichtbarkeit oder Berechtigungen durch den Quellcode geändert.
+Stand 27. November 2026: Das Repository ist öffentlich. Die Seite ist unter https://moritzkreinsen.github.io/pflichtfach-informatik/ veröffentlicht; der erste Pages-Lauf war erfolgreich. HTML, JSON und RSS wurden über HTTPS geprüft. `ENABLE_PAGES`, `ENABLE_NEWS` und `ENABLE_CORRECTIONS` stehen auf `true`. Der erste Sammellauf wurde zum Funktionstest mit drei Modellprüfungen gestartet; der reguläre Wochenlauf bleibt bei maximal 40.
 
-Nach Prüfung und Merge des Feature-PRs:
+Pages verwendet GitHub Actions als Buildquelle. Änderungen an `main` lösen eine Veröffentlichung aus. Die Standardrechte des Workflow-Tokens bleiben lesend. Die GitHub-Einstellung zur Erstellung und Genehmigung von Pull Requests wurde mit ausdrücklicher Freigabe aktiviert; unsere Workflows erstellen ausschließlich Vorschläge und genehmigen oder mergen nichts.
 
-1. Repository erst nach Freigabe öffentlich machen, damit Besucher Issues einreichen können. Die geplante Pages-Adresse lautet `https://moritzkreinsen.github.io/pflichtfach-informatik/`.
-2. Unter Settings → Actions → General die vorgesehenen Actions erlauben und „Allow GitHub Actions to create and approve pull requests“ einschalten. Die Workflows erstellen PRs, genehmigen oder mergen sie aber nicht. Default-Token-Rechte können read-only bleiben; Schreibrechte sind auf die jeweiligen Jobs begrenzt.
-3. Unter Settings → Pages als Buildquelle „GitHub Actions“ wählen; die Umgebung `github-pages` nur für `main` freigeben.
-4. Unter Settings → Secrets and variables → Actions → Variables `ENABLE_PAGES`, `ENABLE_CORRECTIONS` und `ENABLE_NEWS` auf `true` setzen. Die Flags können unabhängig aktiviert werden. Es sind keine Datenbank-, SSH- oder persönlichen GitHub-Tokens als Secrets nötig.
-5. Den Pages-Workflow manuell starten. Danach veröffentlicht jeder Push/Merge auf `main` die frisch erzeugte Ausgabe. Die üblichen PR-Prüfungen benötigen diese Flags nicht.
-6. Den Korrekturweg einmal mit einem echten Artikel testen: Vorschlag absenden, PR prüfen, mergen, aktualisierte Webseite und RSS prüfen. Anschließend den Wochenlauf manuell erproben. Diese End-to-End-Läufe sind vor der Aktivierung noch nicht durchgeführt.
-7. „Automatically delete head branches“ im Repository einschalten. Falls die Einstellung mit dem vorhandenen Projektzugang nicht bearbeitbar ist, gemergte Branches manuell entfernen. Lokal `git fetch --prune origin`, `main` per Fast-forward aktualisieren und ausschließlich gemergte Arbeitsbranches löschen.
+Die Actions-Freigabe ist auf eigene Actions und diese ausdrücklich ausgewählten Bausteine beschränkt:
+
+- `actions/checkout@v4`, `actions/setup-python@v5`, `actions/setup-node@v4`
+- `actions/cache@v4`
+- `actions/upload-pages-artifact@v3`, `actions/deploy-pages@v4`
+- `actions/upload-artifact@v4`, `actions/download-artifact@v4`
+
+Die Datenverarbeitung und Tests laufen mit Leserechten, ohne gespeicherte Git-Zugangsdaten im Checkout. Nur separate, kurze Jobs zur PR-Erstellung erhalten `contents: write` und `pull-requests: write`. Sie führen weder Paketinstallationen von Drittanbietern noch Quellenabrufe oder Modelle aus. Zwischen den Jobs werden ausschließlich geprüfte Artikelmetadaten übergeben; Volltexte, SQLite und Besucherinformationen sind keine Artefakte. Der Pages-Deployment-Job erhält nur `pages: write` und `id-token: write`.
+
+Zur Deaktivierung eines Ablaufs dessen ENABLE-Variable auf `false` setzen. Wiederkehrende Änderungen am Nachrichtenbestand werden weiterhin als PR geprüft; erst der manuelle Merge veröffentlicht sie. Es sind keine Datenbank-, SSH- oder persönlichen GitHub-Tokens als Secrets nötig.
 
 ## Tokens
 

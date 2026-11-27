@@ -15,12 +15,11 @@ concurrency:
   cancel-in-progress: false
 jobs:
   update:
-    if: vars.ENABLE_NEWS == 'true'
+    if: vars.ENABLE_NEWS == 'true' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 240
-    permissions:
-      contents: write
-      pull-requests: write
+    outputs:
+      source_sha: ${{ steps.source.outputs.sha }}
     env:
       NEWS_DB: ${{ github.workspace }}/var/collection.sqlite
       OLLAMA_URL: http://127.0.0.1:11434
@@ -30,6 +29,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+          persist-credentials: false
+      - name: Ausgangsstand festhalten
+        id: source
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -72,12 +75,42 @@ jobs:
           python scripts/news_data.py export --db "$NEWS_DB"
           python scripts/news_data.py validate
           python scripts/build_static.py
-      - name: Daten-PR zur Prüfung erstellen
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: python scripts/open_data_pr.py news
+      - name: Geprüfte Metadaten übergeben
+        uses: actions/upload-artifact@v4
+        with:
+          name: collected-news
+          path: data/articles.json
+          retention-days: 1
+          if-no-files-found: error
       - name: Laufbericht
         if: always()
         run: |
           echo 'Nachrichtensammlung: ${{ steps.collect.outcome }}' >> "$GITHUB_STEP_SUMMARY"
           echo 'Nur Metadaten werden vorgeschlagen. Nach manuellem Merge veröffentlicht Pages den neuen Bestand. Modell und Volltextcache verbleiben auf dem Runner.' >> "$GITHUB_STEP_SUMMARY"
+  propose:
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.update.outputs.source_sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          name: collected-news
+          path: ${{ runner.temp }}/collected-news
+      - name: Ausschließlich Nachrichtenmetadaten übernehmen
+        run: |
+          cp "$RUNNER_TEMP/collected-news/articles.json" data/articles.json
+          python scripts/news_data.py validate
+          python scripts/build_static.py
+      - name: Daten-PR zur Prüfung erstellen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/open_data_pr.py news
