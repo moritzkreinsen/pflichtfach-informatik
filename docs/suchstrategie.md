@@ -23,3 +23,7 @@ Die Regeln bevorzugen eindeutige Treffer. Formulierungen mit längeren Einschüb
 Neue Formulierungen werden anhand konkreter fehlender Beiträge ergänzt und jeweils mit passenden sowie irreführenden Beispielen getestet. Eine breite Suche nur nach „Informatik“ wird nicht ungeprüft übernommen. Auch eine Modellentscheidung ersetzt keinen überprüfbaren Bezug zur Pflichtfachdebatte. Neue Daten werden weiterhin als PR zur Durchsicht vorgeschlagen.
 
 Beispiele für unterschiedliche Ausdrucksweisen finden sich bei der [KMK](https://www.kmk.org/staendige-wissenschaftliche-kommission-der-kultusministerkonferenz-swk/presse.html) („Informatik als Pflichtfach“) und im [Bildungsportal Niedersachsen](https://bildungsportal-niedersachsen.de/allgemeinbildung/unterrichtsfaecher/mathematische-und-technische-faecher/informatik/unterstuetzungsangebote) („Informatik-Pflichtfach“).
+
+## Personennamen bei der Länderzuordnung
+
+Explizite Nennungen von Julia Willie Hamburg, Julia Hamburg oder Ministerin Hamburg zählen nicht als Hinweis auf das Bundesland Hamburg. Andere Ortsnennungen desselben Beitrags bleiben auswertbar; der Name allein führt auch nicht automatisch zu Niedersachsen. Diese Unterscheidung gilt für die regelbasierte Zuordnung und den Auftrag an die Volltextprüfung. Zwei entsprechende Fehlzuordnungen im vorhandenen Bestand sind über die Zuordnungsdatei auf Niedersachsen korrigiert.

@@ -7,3 +7,5 @@
 .pagination{flex-wrap:wrap;gap:10px}.pagination button{font-size:12px;padding:9px 12px}
 
 main{padding-top:32px}
+
+.rss-icon{vertical-align:-3px;flex-shrink:0;margin-right:4px}

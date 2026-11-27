@@ -9,6 +9,10 @@ check(classify('Bayern und NRW führen Informatik ein','')[0]===['BY','NW'],'Meh
 check(classify('An bayerischen Schulen','Informatik')[0]===['BY'],'Adjektivflexion');
 check(classify('Viele Bundesländer diskutieren Informatik','')[0]===['DE'],'Bundesweiter Vergleich');
 check(classify('Pflichtfach Informatik','')[0]===['UNK'],'Unsicherheit sichtbar');
+check(classify('Niedersachsens Schulen: Frau Ministerin Hamburg zum Pflichtfach','')[0]===['NI'],'Ministerin Hamburg ist kein Hamburg-Beleg');
+check(classify('Julia W. Hamburg spricht über Informatik','')[0]===['UNK'],'Abgekürzter Personenname ist kein Ortsbeleg');
+check(classify('Julia Willie Hamburg spricht über Informatik','')[0]===['UNK'],'Person allein begründet keine Region');
+check(classify('Informatik in Hamburg und Niedersachsen','Julia Willie Hamburg diskutiert mit Hamburger Schulen.')[0]===['HH','NI'],'Echter Hamburg-Bezug neben Personenname bleibt erhalten');
 $xml='<rss version="2.0"><channel><title>Testquelle</title><item><title>Informatik in Bayern</title><link>https://example.org/news</link><description>Das Pflichtfach Informatik wird an weiteren Schulen ausgebaut. Die Lehrkräfte erhalten Fortbildungen.</description><pubDate>Mon, 02 Nov 2026 10:00:00 GMT</pubDate></item></channel></rss>';
 check(import_feed($xml)===1,'RSS importiert');import_feed($xml);check(count(articles())===1,'Deduplizierung');
 check(matches_phrase('Das PFLICHTFACH&nbsp;Informatik kommt'),'Großschreibung und HTML-Leerzeichen');
